@@ -31,11 +31,11 @@ require('./HermanChanel.js')
 nocache('./HermanChanel.js', module => console.log(`${module} is now updated!`))
 
 const starts = async (kurr = new WAConnection()) => {
-	console.log(color('Go 1k Subscribe Ngabb\n\n', 'orange'), color('\n======TQTO KEPADA======\n•Aldy Fauzy\n•Kemol\nHerman Chanel\n•ADI\n•KurrXd\n•YUDHA\n•PAJAR\n•Dcode Denpa\n•Finx\n•Subscriber\n•All Creator Botz', 'yellow'))
+	console.log(color('SHINCHAN GANTENG NO DEBAT\n\n', 'orange'), color('\n======TQTO KEPADA======\n•Aldy Fauzy\n•Kemol\nSHIN-CHAN\n•ADI\n•KurrXd\n•YUDHA\n•PAJAR\n•Dcode Denpa\n•Finx\n•Subscriber\n•All Creator Botz', 'yellow'))
 	console.log(color('\n\nSUBSCRIBE LAH JAN MAKE DOANG ©HERMAN CHANEL GO1KSUBS', 'pink'))
     kurr.logger.level = 'warn'
     kurr.version = [2, 2143, 3]
-    kurr.browserDescription = [ 'Herman Chanel', 'Chrome', '3.0' ]
+    kurr.browserDescription = [ 'SHIN-CHAN', 'Firefox', '3.0' ]
     
     kurr.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan bang'))
@@ -154,9 +154,9 @@ quoted: {
 "groupInviteMessage": {
 "groupJid": "628983583288-1620319322@g.us",
 "inviteCode": "NgsCIU2lXKh3VHJT",
-"groupName": "calMeHerman",
+"groupName": "SHIN-CHAN",
 "jpegThumbnail": fs.readFileSync('./media/thumb.jpg'),
-"caption": `CalMeHerman`
+"caption": `ShinChan`
 }
 
 }
@@ -177,9 +177,9 @@ quoted: {
 "groupInviteMessage": {
 "groupJid": "628983583288-1620319322@g.us",
 "inviteCode": "NgsCIU2lXKh3VHJT",
-"groupName": "CalMeHerman",
+"groupName": "SHIN-CHAN",
 "jpegThumbnail": fs.readFileSync('./media/thumb.jpg'),
-"caption": `CalMeHerman`
+"caption": `ShinChan`
 }
 }
 }
