@@ -45,6 +45,7 @@ const translate = require('@vitalets/google-translate-api')
 const ggs = require('google-it')
 const googleImage = require('g-i-s')
 const toMs = require('ms')
+const yts = require( 'yt-search')
 const fetch = require('node-fetch')
 const imgbb = require('imgbb-uploader')
 const Math_js = require('mathjs')
@@ -101,11 +102,11 @@ tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣",
 cmhit = []
 fake = "⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗";
 autorespon = false
-autoread = false
+autoread = true
 playmusic = false
 autovn = true
 autotype = false
-antidelete = false
+antidelete = true
 menusimpel = false
 menuall = false
 baterai = {
@@ -745,6 +746,26 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
 					});
 				});
 			}
+			const sendStickerFromUrl = async(to, url) => {
+var names = Date.now() / 10000;
+var download = function (uri, filename, callback) {
+request.head(uri, function (err, res, body) {
+request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+});
+};
+download(url, './stik' + names + '.png', async function () {
+console.log('selesai');
+let filess = './stik' + names + '.png'
+let asw = './stik' + names + '.webp'
+exec(`ffmpeg -i ${filess} -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${asw}`, (err) => {
+let media = fs.readFileSync(asw)
+kurr.sendMessage(to, media, MessageType.sticker,{quoted:mek})
+console.log(color(time, 'magenta'), color(moment.tz('Asia/Jakarta').format('HH:mm:ss'), "gold"), color('Succes send sticker'))
+fs.unlinkSync(filess)
+fs.unlinkSync(asw)
+});
+});
+} 
         const sendWebp = async(from, url) => {
                 var names = Date.now() / 10000;
                 var download = function (uri, filename, callback) {
@@ -4867,7 +4888,7 @@ break
 							reply(mess.error.api)
 						}
 						break
-                    case 'play':
+                    case 'play2':
             if (args.length == 0) return reply(`Example: ${prefix + command} vide 1detik`)
             query = args.join(" ")
             get_resultL = await fetchJson(`https://ziy.herokuapp.com/api/play?apikey=xZiyy&judul=${query}`)
@@ -4902,7 +4923,28 @@ Link : ${get_resultP.url_audio}
 					exif.create(namaPack, authorPack)
 					await reply('Done gan')
 				break
-				case 'sticker':
+				case 'play':
+			    if (args.length === 0) return reply(`Kirim perintah *${prefix}play* _Judul lagu yang akan dicari_`)
+               var srch = args.join('')
+    		   aramas = await yts(srch);
+    	   	aramat = aramas.all 
+   			var mulaikah = aramat[0].url							
+               try {
+               yta(mulaikah)
+              .then((res) => {
+               const { dl_link, thumb, title, filesizeF, filesize } = res
+               axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
+              .then(async (a) => {
+               if (Number(filesize) >= 100000) return sendMediaURL(from, thumb, `*PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_Untuk durasi lebih dari batas disajikan dalam baltuk link_`)
+               const captions = `*PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Size* : ${filesizeF}\n*Link* : ${a.data}\n\n_Silahkan tunggu file media sedang dikirim mungkin butuh beberapa menit_`
+               sendMediaURL(from, thumb, captions)
+               await sendMediaURL(from, dl_link).catch(() => reply('error'))
+                        })                
+                        })
+                        } catch (err) {
+                        reply(mess.error.api)
+                        }
+                   break
 					case 'stiker':
 					case 's':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
@@ -5049,6 +5091,21 @@ Link : ${get_resultP.url_audio}
 							fs.unlinkSync(`./sticker/takestick_${sender}.exif`)
 						})
 						break
+//stiker work Replit
+case 'sticker':
+if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+var imgbb = require('imgbb-uploader')
+if ((isMedia && !mek.message.videoMessage || isQuotedImage || isQuotedSticker)) {
+ger = isQuotedImage || isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
+owgi = await  kurr.downloadAndSaveMediaMessage(ger)
+anu = await imgbb("f0b190d67308d34811fab9c56fe8aba7", owgi)
+tekks = `${anu.display_url}`
+anu1 = `${tekks}`
+sendStickerFromUrl(from, `${anu1}`, mess.success)
+} else {
+reply(`Kirim gambar dengan caption ${prefix}sticker`)
+}
+break
 			case 'speed':
 			case 'ping':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
