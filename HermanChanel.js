@@ -3678,14 +3678,14 @@ case 'matrix':
                 kurr.modifyChat(from, ChatModification.delete)
                 break
 				case 'clearall':
-				if (!isOwner && !mek.key.fromMe) return sticOwner(from)
+                 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 					anu = await kurr.chats.all()
-					kurr.setMaxListeners(10)
+					kurr.setMaxListeners(25)
 					for (let _ of anu) {
-						kurr.clearMessage(_.jid)
+					kurr.modifyChat(_.jid, 'clear')
 					}
-					reply('Sukses membersihkan semua pesan')
-					break
+					reply('❬ 𝗦𝗨𝗞𝗦𝗘𝗦 ❭ ')
+				break 
 					case 'mute':
 			    if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 			    if (!isGroup) return reply(mess.only.group)
@@ -4925,6 +4925,7 @@ Link : ${get_resultP.url_audio}
 				break
 				case 'play':
 			    if (args.length === 0) return reply(`Kirim perintah *${prefix}play* _Judul lagu yang akan dicari_`)
+			   sticWait(from)
                var srch = args.join('')
     		   aramas = await yts(srch);
     	   	aramat = aramas.all 
