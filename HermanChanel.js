@@ -3354,7 +3354,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 if (args.length < 1) return reply('Link Nya Mana? ')
 if(!isUrl(args[0]) && !args[0].includes('mediafire')) return reply(mess.error.api)
 .then((res) => {
-const { dl_link, thumb, title, filesizeF, filesize } = res
+const { dl_link, thumb, title, filesizeF, filesize }
 if (Number(filesize) >= 30000) return reply(`*「 MEDIAFIRE DOWNLOAD 」*
 
 *🏴‍☠️ Nama :* ${res[0].nama}
