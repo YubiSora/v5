@@ -116,7 +116,7 @@ headerType: 4
 }
 kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
-sendButImage(mdata.id, teks, 'Jangan Melanggar🌚', img, [{buttonId: 'mam', buttonText: {displayText: 'Welcome kak 👋'}, type: 1},{buttonId: '!sc', buttonText: {displayText: 'Moga Betah Ya️'}, type: 1}], {thumbnail: img, "contextInfo": {mentionedJid: [num]}, quoted: {"key": {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "P", "caption": `subscribe : xZiyy`, 'jpegThumbnail': fs.readFileSync('./media/thumb.jpg')}}}})
+sendButImage(mdata.id, teks, 'Jangan Melanggar🌚', img, [{buttonId: 'mam', buttonText: {displayText: 'Welcome kak 👋'}, type: 1},{buttonId: '!sc', buttonText: {displayText: 'Moga Betah Ya️'}, type: 1}], {thumbnail: img, "contextInfo": {mentionedJid: [num]}, quoted: {"key": {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "P", "caption": `⏤͟͟͞͞ᵡмSʜɪɴ々Cʜᴀɴ༗`, 'jpegThumbnail': fs.readFileSync('./media/thumb.jpg')}}}})
       
 }
 if (anu.action == 'remove') {
@@ -134,7 +134,7 @@ headerType: 4
 }
 kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
-sendButImage(mdata.id, teks, 'Member Grup Berkurang🗿', buffa, [{buttonId: 'X - Dev Team', buttonText: {displayText: 'Bye 👋'}, type: 1}], {thumbnail: buffa, "contextInfo": {mentionedJid: [num]}, quoted: {"key": {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "P", "caption": `subscribe : xZiyy`, 'jpegThumbnail': fs.readFileSync('./media/thumb.jpg')}}}})
+sendButImage(mdata.id, teks, 'Member Grup Berkurang🗿', buffa, [{buttonId: 'X - Dev Team', buttonText: {displayText: 'Bye 👋'}, type: 1}], {thumbnail: buffa, "contextInfo": {mentionedJid: [num]}, quoted: {"key": {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "P", "caption": `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`, 'jpegThumbnail': fs.readFileSync('./media/thumb.jpg')}}}})
 }
 if (anu.action == 'promote') {
 img = await getBuffer(`https://ziy.herokuapp.com/api/author/promote?pp=${shortpc.data}&nama=${encodeUrl(namaewa)}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
