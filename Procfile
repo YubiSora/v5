@@ -1,2 +1,2 @@
 worker: npm start
-worker2: node HermanChanel.js
+worker2: node .
