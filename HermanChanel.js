@@ -3353,8 +3353,6 @@ case 'mediafire':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 if (args.length < 1) return reply('Link Nya Mana? ')
 if(!isUrl(args[0]) && !args[0].includes('mediafire')) return reply(mess.error.api)
-.then((res) => {
-const { dl_link, thumb, title, filesizeF, filesize } = res
 if (Number(filesize) >= 30000) return reply(`*「 MEDIAFIRE DOWNLOAD 」*
 
 *🏴‍☠️ Nama :* ${res[0].nama}
@@ -3364,6 +3362,7 @@ if (Number(filesize) >= 30000) return reply(`*「 MEDIAFIRE DOWNLOAD 」*
 _Maaf size melebihi batas maksimal, Silahkan klik link diatas_`)
 sticWait(from)
 teks = args.join(' ')
+res = await mediafireDl(teks)
 result = `*「 MEDIAFIRE DOWNLOAD 」*
 
 *Data Berhasil Didapatkan!*
@@ -5078,6 +5077,7 @@ Link : ${get_resultP.url_audio}
 						break
 					case 'takestick':
 					case 'take':
+					case 'wm':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 						if (!isQuotedSticker) return reply(`Reply sticker dengan caption *${prefix}takestick nama|author*`)
 						ppp = `${args.join(' ')}`
