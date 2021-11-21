@@ -92,7 +92,7 @@ if (!welkom.includes(anu.jid)) return
         shortpc = await axios.get(`https://tinyurl.com/api-create.php?url=${ppimg}`)
         shortgc = await axios.get(`https://tinyurl.com/api-create.php?url=${ppgc}`)
             if (anu.action == 'add') {
-            img = await getBuffer(`https://ziy.herokuapp.com/api/author/welcome1?pp=${shortpc.data}&nama=${encodeUrl(namaewa)}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
+            img = await getBuffer(`https://ziy.herokuapp.com/api/author/welcome1?pp=${shortpc.data}&nama=@${num.split('@')[0]}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
             teks = `
 Halo @${num.split('@')[0]} 👋\nSelamat datang di Grup
 *${mdata.subject}*
@@ -120,8 +120,8 @@ sendButImage(mdata.id, teks, 'Jangan Melanggar🌚', img, [{buttonId: 'mam', but
       
 }
 if (anu.action == 'remove') {
-buffa = await getBuffer(`https://ziy.herokuapp.com/api/author/goodbye1?pp=${shortpc.data}&nama=${encodeUrl(namaewa)}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
-teks = `${namaewa} God Byeee👋`
+buffa = await getBuffer(`https://ziy.herokuapp.com/api/author/goodbye1?pp=${shortpc.data}&nama=@${num.split('@')[0]}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
+teks = `@${num.split('@')[0]} God Byeee👋`
 const sendButImage = async(id, text1, desc1, gam1, but = [], options = {}) => {
 kma = gam1
 mhan = await kurr.prepareMessage(mdata.id, kma, image, {thumbnail: buffa})
