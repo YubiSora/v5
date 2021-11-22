@@ -372,7 +372,7 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
                 case 12: jamss = "Zuhur 🌞"; break;
                 case 13: jamss = "Afternoon 🌞"; break;
                 case 14: jamss = "Afternoon 🌞"; break;
-                case 15: jamss = "Asr 🌞"; break;
+                case 15: jamss = "Asar 🌞"; break;
                 case 16: jamss = "Afternoon ☀️"; break;
                 case 17: jamss = "Evening 🌄"; break;
                 case 18: jamss = "Maghrib 🌄"; break;
@@ -1227,8 +1227,8 @@ if (!isCmd && mek.message && autovn) {for (let i of totalchat) {await kurr.updat
 if (!isCmd && mek.message && autotype) {for (let i of totalchat) {await kurr.updatePresence(i.jid, Presence.composing)}}  //unavailable, available, composing, recording, paused
 if (!isCmd && autoread) {for (let i of totalchat) {await kurr.chatRead(from, "read")}}
 
-if (budy.startsWith('kurr')){
-sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© ⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+if (budy.startsWith('Chan')){
+sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© ⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
 reply('https://instagram.com/quotes.thenay_')
