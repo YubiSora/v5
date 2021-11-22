@@ -5190,11 +5190,10 @@ for (let i = 0; i < (q) ; i++){
 						"contextInfo": {
 							"forwardingScore": 1,
 							"isForwarded": true
-						}
-           }
-				}, {quoted: fvid, contextInfo:{}}) 
- kurr.relayWAMessage(res)
- break
+							}
+        		}, {quoted:mek})
+        		kurr.relayWAMessage(res)}
+        		break
 case 'dokumen':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 for (let i = 0; i < (q) ; i++){
