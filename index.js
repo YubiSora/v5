@@ -3,6 +3,7 @@ const axios = require("axios")
 const simple = require('./lib/simple.js')
 const WAConnection = simple.WAConnection(_WAConnection)
 const kurr = new WAConnection()
+const conts = mek.key.fromMe ? kurr.user.jid : kurr.contacts[mek.sender]
 const pushname = mek.key.fromMe ? kurr.user.name : !conts ? '-' : conts.notify || conts.vname || conts.name || '-'   
 const qrcode = require("qrcode-terminal")
 const moment = require("moment-timezone")
