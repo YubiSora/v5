@@ -957,7 +957,8 @@ return reply(parse)
                 return `${bits.toFixed(places[unit])} ${units[unit]}bps`;
             } 
 if (budy.includes('Assalamualaikum')){
-reply('Waalaikumsalam')
+reply('وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
+_wa'alaikumussalam wr.wb._')
 }
 if (budy.includes('Bot')) {
 const loli = fs.readFileSync('./assets/loli.mp3');
@@ -966,115 +967,6 @@ kurr.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/m
 if (budy.includes('bot')) {
 const loli = fs.readFileSync('./assets/loli.mp3');
 kurr.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-//toxic
-if (budy.includes('Ajg')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('ajg')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('anjing')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Kntl')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('kntl')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('kontol')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('babi')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Bngst')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('bangsat')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Bangsat')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('bngst')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('ngentod')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Ngentod')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('ngntd')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Ngentd')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Jancok')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('jnck')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('jancok')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('jmbt')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Jembut')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Jmbt')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('jembut')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Pepek')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('pepek')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Mmk')) {
-const mmk = fs.readFileSync('./assets/memek.mp3');
-kurr.sendMessage(from, mmk, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('mmk')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('memek')) {
-const hayo = fs.readFileSync('./assets/hayo.mp3');
-kurr.sendMessage(from, hayo, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
 }
 //Sapaan
 if (budy.includes('Hai')) {
@@ -1103,53 +995,12 @@ const menu = fs.readFileSync('./assets/menu.mp3');
 kurr.sendMessage(from, menu, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
 }
 if (budy.includes('allmenu')) {
-const menu = fs.readFileSync('./assets/menu.mp3');
-kurr.sendMessage(from, menu, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
+const allmenu = fs.readFileSync('./assets/dj.mp3');
+kurr.sendMessage(from, allmenu, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
 }
 if (budy.includes('help')) {
 const menu = fs.readFileSync('./assets/menu.mp3');
 kurr.sendMessage(from, menu, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-//desah
-if (budy.includes('bokep')) {
-const ah = fs.readFileSync('./assets/ah.mp3');
-kurr.sendMessage(from, ah, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('yamete')) {
-const ah = fs.readFileSync('./assets/ah.mp3');
-kurr.sendMessage(from, ah, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Yamete')) {
-const ah = fs.readFileSync('./assets/ah.mp3');
-kurr.sendMessage(from, ah, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('bkep')) {
-const ah = fs.readFileSync('./assets/ah.mp3');
-kurr.sendMessage(from, ah, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Bokep')) {
-const ah = fs.readFileSync('./assets/ah.mp3');
-kurr.sendMessage(from, ah, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('desah')) {
-const ah = fs.readFileSync('./assets/ah.mp3');
-kurr.sendMessage(from, ah, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Desah')) {
-const ah = fs.readFileSync('./assets/ah.mp3');
-kurr.sendMessage(from, ah, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('bkp')) {
-const ah = fs.readFileSync('./assets/ah.mp3');
-kurr.sendMessage(from, ah, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('hentai')) {
-const ah = fs.readFileSync('./assets/ah.mp3');
-kurr.sendMessage(from, ah, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-}
-if (budy.includes('Hentai')) {
-const ah = fs.readFileSync('./assets/ah.mp3');
-kurr.sendMessage(from, ah, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', duration: 359996400, ptt:true})
 }
            if (budy.startsWith('>')){
 if (!isOwner && !mek.key.fromMe) return
@@ -5230,7 +5081,7 @@ if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 								"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽/>;;;\nFN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽/>\nitem1.TEL;waid=0:+0\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈??𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕?? 咽翁 𝔹𝕆??️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️️️️\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
 							},
 							{
-							    "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽/>;;;\nFN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽/>\nitem1.TEL;waid=0:+0\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 ??𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹??𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈??𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️️\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
+							    "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽/>;;;\nFN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽/>\nitem1.TEL;waid=0:+0\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 ??𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹??𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈??𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹??𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️️\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
 							},
 							{
 							    "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽/>;;;\nFN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽/>\nitem1.TEL;waid=0:+0\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈??𝘌𝘟𝘈𝘕?? 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈??𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️️\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
