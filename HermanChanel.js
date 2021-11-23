@@ -2103,7 +2103,7 @@ case 'neko':
 haram = await getBuffer(`http://hadi-api.herokuapp.com/api/neko`)
 but = [
 { buttonId: 'STOP', buttonText: { displayText: 'STOP ✔︎' }, type: 1 },
-{ buttonId: 'haram', buttonText: { displayText: 'NEXT🤤' }, type: 1 }
+{ buttonId: 'neko', buttonText: { displayText: 'NEXT🤤' }, type: 1 }
 ]
 sendButImage(from, `JANGAN NGOCOK YA BANG🗿`, `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`, neko, but)
 break
