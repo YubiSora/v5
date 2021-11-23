@@ -2105,7 +2105,7 @@ but = [
 { buttonId: 'STOP', buttonText: { displayText: 'STOP ✔︎' }, type: 1 },
 { buttonId: 'haram', buttonText: { displayText: 'NEXT🤤' }, type: 1 }
 ]
-sendButImage(from, `JANGAN NGOCOK YA BANG🗿`, ⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗``, haram, but)
+sendButImage(from, `JANGAN NGOCOK YA BANG🗿`, ⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗``, neko, but)
 break
 case 'nekoanime':
 xzn = await fetchJson(`https://python-api-zhirrr.herokuapp.com/api/nekonime`)
