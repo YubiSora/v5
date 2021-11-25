@@ -61,212 +61,134 @@ const starts = async (kurr = new WAConnection()) => {
         dtod = "6283146208804@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
-    
-    const htod = "6282134110253@s.whatsapp.net"
 
-// Send Message
-const sendButImage = async (id, text1, desc1, gam1, but = [], options = {}) => {
-      kma = gam1;
-      mhan = await kurr.prepareMessage(id, kma, MessageType.image);
-       buttonMessages = {
-        imageMessage: mhan.message.imageMessage,
-        contentText: text1,
-        footerText: desc1,
-        buttons: but,
-        headerType: 4,
-      }
-      kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
-    }
-const sendButLocation = async (id, text1, desc1, gam1, but = [], options = {}) => {
+kurr.on('group-participants-update', async (anu) => {
+const { text, extendedText, contact, location, liveLocation, image, video, sticker, document, audio, product } = MessageType
+if (!welkom.includes(anu.jid)) return
+		try {
+		    fkontakk = { key: {
+		    fromMe: false,
+		    participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6281220670449-6281220670449@g.us' } : {})
+		    },
+		    message: {
+		    "contactMessage":{"displayName":fake,"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;kurr;;;\nFN:kurr\nitem1.TEL;waid=6281220670449:+62 81220670449\nitem1.X-ABLabel:Mobile\nEND:VCARD"
+		     }}}
+		     const mdata = await kurr.groupMetadata(anu.jid)
+         num = anu.participants[0]
+         console.log(anu)
+         ini_user = kurr.contacts[num]
+         namaewa = ini_user.notify
+         member = mdata.participants.length
+          try {
+               var ppimg = await kurr.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`)
+            } catch {
+               var ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+            }
+            try {
+                var ppgc = await kurr.getProfilePicture(anu.jid)
+            } catch {
+               var ppgc = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+            }
+        shortpc = await axios.get(`https://tinyurl.com/api-create.php?url=${ppimg}`)
+        shortgc = await axios.get(`https://tinyurl.com/api-create.php?url=${ppgc}`)
+            if (anu.action == 'add') {
+            img = await getBuffer(`https://ziy.herokuapp.com/api/author/welcome1?pp=${shortpc.data}&nama=       @${num.split('@')[0]}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
+            teks = `
+Halo @${num.split('@')[0]} 👋\nSelamat datang di Grup
+*${mdata.subject}*
+
+🔥Intro Member Baru🔥
+${shp} Nama:
+${shp} Umur:
+${shp} Status:
+${shp} Askot:
+`
+const sendButImage = async(id, text1, desc1, gam1, but = [], options = {}) => {
 kma = gam1
-mhan = await kurr.prepareMessage(id, kma, location)
+
+mhan = await kurr.prepareMessage(mdata.id, kma, image, {thumbnail: img})
 const buttonMessages = {
-locationMessage: mhan.message.locationMessage,
+imageMessage: mhan.message.imageMessage,
 contentText: text1,
 footerText: desc1,
 buttons: but,
-headerType: 6
+headerType: 4
 }
 kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
-
-kurr.on("group-update", async (anu) => {
-
-    metdata = await kurr.groupMetadata(anu.jid);
-
-    if (anu.announce == "false") {
-
-      teks = `- [ Group Opened ] -\n\n_Group telah dibuka oleh admin_\n_Sekarang semua member bisa mengirim pesan_`;
-
-      kurr.sendMessage(metdata.id, teks, MessageType.text);
-
-      console.log(`- [ Group Opened ] - In ${metdata.subject}`);
-
-    } else if (anu.announce == "true") {
-
-      teks = `- [ Group Closed ] -\n\n_Group telah ditutup oleh admin_\n_Sekarang hanya admin yang dapat mengirim pesan_`;
-
-      kurr.sendMessage(metdata.id, teks, MessageType.text);
-
-      console.log(`- [ Group Closed ] - In ${metdata.subject}`);
-
-    } else if (!anu.desc == "") {
-
-      tag = anu.descOwner.split("@")[0] + "@s.whatsapp.net";
-
-      teks = `- [ Group Description Change ] -\n\nDeskripsi Group telah diubah oleh Admin @${
-
-        anu.descOwner.split("@")[0]
-
-      }\nï¿½ Deskripsi Baru : ${anu.desc}`;
-
-      kurr.sendMessage(metdata.id, teks, MessageType.text, {
-
-        contextInfo: { mentionedJid: [tag] },
-
-      });
-
-      console.log(`- [ Group Description Change ] - In ${metdata.subject}`);
-
-    } else if (anu.restrict == "false") {
-
-      teks = `- [ Group Setting Change ] -\n\nEdit Group info telah dibuka untuk member\nSekarang semua member dapat mengedit info Group Ini`;
-
-      kurr.sendMessage(metdata.id, teks, MessageType.text);
-
-      console.log(`- [ Group Setting Change ] - In ${metdata.subject}`);
-
-    } else if (anu.restrict == "true") {
-
-      teks = `- [ Group Setting Change ] -\n\nEdit Group info telah ditutup untuk member\nSekarang hanya admin group yang dapat mengedit info Group Ini`;
-
-      kurr.sendMessage(metdata.id, teks, MessageType.text);
-
-      console.log(`- [ Group Setting Change ] - In ${metdata.subject}`);
-
-    }
-
-  });
-
-kurr.on('group-participants-update', async (anu) => {
-
-	try {
-
-		mdata = await kurr.groupMetadata(anu.jid)
-
-		console.log(anu)
-
-		if (anu.action == 'add') {
-
-			num = anu.participants[0]
-
-			try {
-
-				ppUrl = await kurr.getProfilePicture(num)
-
-				} catch {
-
-					ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
-
-				}
-
-				img = await getBuffer(ppUrl)
-
-				teks = `ðŸŒ¹ Hi @${num.split('@')[0]} ðŸ‘‹\nðŸŒ¹ Selamat Datang Di Group: ${mdata.subject}\n\n Join Pada Jam: ${time} Waktu Server`
-
-				sendButImage(anu.jid, teks, `Shin-Chan Yucan`, img,but = [{buttonId:`donasi`, 
-
-               buttonText:{displayText: 'WELCOME'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
-
-			} else if (anu.action == 'remove') {
-
-			num = anu.participants[0]
-
-			try {
-
-				ppUrl = await kurr.getProfilePicture(num)
-
-				} catch {
-
-					ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
-
-				}
-
-				img = await getBuffer(ppUrl)
-
-				teks = `Daahh @${num.split('@')[0]}\nSelamat Tinggal Di Group: ${mdata.subject}`
-
-				sendButImage(anu.jid, teks, `ShinChan Yucan`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAYONARA !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
-
-			} else if (anu.action == 'promote') {
-
-			num = anu.participants[0]
-
-			try {
-
-				ppUrl = await kurr.getProfilePicture(num)
-
-				} catch {
-
-					ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
-
-				}
-
-				img = await getBuffer(ppUrl)
-
-				teks = `ã€Œ PROMOTE - DETECTED ã€\n\nNama : @${num.split("@")[0]}\nStatus : Member -> Admin\nGroup : ${mdata.subject}`
-
-				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SELAMAT KAK`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
-
-			} else if (anu.action == 'demote') {
-
-			num = anu.participants[0]
-
-			try {
-
-				ppUrl = await kurr.getProfilePicture(num)
-
-				} catch {
-
-					ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
-
-				}
-
-				img = await getBuffer(ppUrl)
-
-				teks = `ã€Œ DEMOTE - DETECTED ã€\n\nNama : @${num.split("@")[0]}\nStatus : Admin -> Member\nGroup : ${mdata.subject}`
-
-				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SABAR YA`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
-
-			}
-
-		} catch (e) {
-
-			console.log(e)
-
-			}
-
-		})
-		
-kurr.on('group-update', async (anu) => {
-	try { 
-	console.log(anu)
-	from = anu.jid
-	group = await kurr.groupMetadata(anu.jid)
-	if (!anu.desc == '') {
-		tag = anu.descOwner.replace('@c.us', '@s.whatsapp.net')
-		kurr.sendMessage(group.id, `Group Description Change\n\nâ€¢ Admin : @${tag.split("@")[0]}\nâ€¢ Group : ${group.subject}\nâ€¢ descTime : ${anu.descTime}\nâ€¢ descID : ${anu.descId}\nâ€¢ descNew : ${anu.desc}`, MessageType.text, {contextInfo: { mentionedJid: [tag]}})
-		} else if (!anu.restrict == '') {
-			kurr.sendMessage(group.id, `Group Restrict Change\n\nâ€¢ Group : ${group.subject}\nâ€¢ groupId : ${anu.jid}\nâ€¢ restrict : ${anu.restrict}`, MessageType.text)
-			} else if (!anu.announce == '') {
-				kurr.sendMessage(group.id, `Group Announce Change\n\nâ€¢ Group : ${group.subject}\nâ€¢ groupId : ${anu.jid}\nâ€¢ announce : ${anu.announce}`, MessageType.text)
-				} 
-					} catch(err) {
-						e = String(err)
-						console.log(e)
-						}
-
-	})
+sendButImage(mdata.id, teks, 'Jangan Melanggar🌚', img, [{buttonId: 'mam', buttonText: {displayText: 'Welcome kak 👋'}, type: 1},{buttonId: '!sc', buttonText: {displayText: 'Moga Betah Ya️'}, type: 1}], {thumbnail: img, "contextInfo": {mentionedJid: [num]}, quoted: {"key": {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "P", "caption": `⏤͟͟͞͞ᵡмSʜɪɴ々Cʜᴀɴ༗`, 'jpegThumbnail': fs.readFileSync('./media/thumb.jpg')}}}})
+      
+}
+if (anu.action == 'remove') {
+buffa = await getBuffer(`https://ziy.herokuapp.com/api/author/goodbye1?pp=${shortpc.data}&nama=       @${num.split('@')[0]}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
+teks = `@${num.split('@')[0]} God Byeee Tod👋`
+const sendButImage = async(id, text1, desc1, gam1, but = [], options = {}) => {
+kma = gam1
+mhan = await kurr.prepareMessage(mdata.id, kma, image, {thumbnail: buffa})
+const buttonMessages = {
+imageMessage: mhan.message.imageMessage,
+contentText: text1,
+footerText: desc1,
+buttons: but,
+headerType: 4
+}
+kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
+}
+sendButImage(mdata.id, teks, 'Member Grup Berkurang🗿', buffa, [{buttonId: 'X - Dev Team', buttonText: {displayText: 'Bye 👋'}, type: 1}], {thumbnail: buffa, "contextInfo": {mentionedJid: [num]}, quoted: {"key": {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "P", "caption": `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`, 'jpegThumbnail': fs.readFileSync('./media/thumb.jpg')}}}})
+}
+if (anu.action == 'promote') {
+img = await getBuffer(`https://ziy.herokuapp.com/api/author/promote?pp=${shortpc.data}&nama=${encodeUrl(namaewa)}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
+teks =`
+selamat kamu telah menjadi admin group
+`
+//kurr.sendMessage(mdata.id, img, MessageType.image, {caption: teks, contextInfo: {'mentionedJid': [num]}})
+kurr.sendMessage(mdata.id, img, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]},
+            
+quoted: {
+"key": {
+"fromMe": false,
+"participant": `0@s.whatsapp.net`,
+"remoteJid": `0@s.whatsapp.net`
+},
+"message": {
+"groupInviteMessage": {
+"groupJid": "628983583288-1620319322@g.us",
+"inviteCode": "NgsCIU2lXKh3VHJT",
+"groupName": "SHIN-CHAN",
+"jpegThumbnail": fs.readFileSync('./media/thumb.jpg'),
+"caption": `ShinChan`
+}
+
+}
+}
+})
+} else if (anu.action == 'demote') {
+img = await getBuffer(`https://ziy.herokuapp.com/api/author/demote?pp=${shortpc.data}&nama=${encodeUrl(namaewa)}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
+teks = `awokawokawok gimana rasa nya di demote🐦`
+//kurr.sendMessage(mdata.id, img, MessageType.image, {caption: teks, contextInfo: {'mentionedJid': [num]}})
+kurr.sendMessage(mdata.id, img, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]},
+quoted: {
+"key": {
+"fromMe": false,
+"participant": `0@s.whatsapp.net`,
+"remoteJid": `0@s.whatsapp.net`
+},
+"message": {
+"groupInviteMessage": {
+"groupJid": "628983583288-1620319322@g.us",
+"inviteCode": "NgsCIU2lXKh3VHJT",
+"groupName": "SHIN-CHAN",
+"jpegThumbnail": fs.readFileSync('./media/thumb.jpg'),
+"caption": `ShinChan`
+}
+}
+}
+})
+}
+} catch (e) {
+console.log('Error : %s', color(e, 'red'))
+}
+})
 
 //-----------------< ANTI DELETE >---------------------\\
 antidel = true
