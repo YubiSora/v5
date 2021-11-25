@@ -61,6 +61,8 @@ const starts = async (kurr = new WAConnection()) => {
         dtod = "6283146208804@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
+    
+    const htod = "6282134110253@s.whatsapp.net"
 
 // Send Message
 const sendButImage = async (id, text1, desc1, gam1, but = [], options = {}) => {
