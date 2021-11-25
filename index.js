@@ -1,405 +1,242 @@
-const {
-    WAConnection: _WAConnection,
-    MessageType,
-    Presence,
-    Mimetype,
-    GroupSettingChange
-} = require('@adiwajshing/baileys')
-const { color, bgcolor } = require('./lib/color')
-const fs = require("fs-extra")
+const { WAConnection: _WAConnection, MessageType, Presence, Mimetype, ChatModification, GroupSettingChange, ReconnectMode } = require('@adiwajshing/baileys')
+const axios = require("axios")
 const simple = require('./lib/simple.js')
 const WAConnection = simple.WAConnection(_WAConnection)
-const figlet = require('figlet')
-const { getBuffer, info, start, success} = require('./lib/functions')
+const kurr = new WAConnection()
+const qrcode = require("qrcode-terminal")
 const moment = require("moment-timezone")
+const fs = require("fs")
+const util = require('util')
+const figlet = require('figlet')
+const term = require('terminal-kit').terminal
+const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
+const fetch = require('node-fetch')
+const { color, bgcolor } = require('./lib/color')
+const { exec } = require('child_process')
+const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, banner, start, info, success, close } = require('./lib/functions')
+const settings = JSON.parse(fs.readFileSync('./settings.json'))
 const gcdetect = JSON.parse(fs.readFileSync('./database/gcdetect.json'))
 const brightcolor  = require('colors');
 const encodeUrl = require('encodeurl')
 const chalk = require('chalk')
 const welkom = JSON.parse(fs.readFileSync('./database/welkom.json'))
-const {  location } = MessageType
-const settings = JSON.parse(fs.readFileSync('./settings.json'))
-baterai = 'unknown'
-charging = 'unknown'
+shp = '⬡'
+spc1 = '           '
 
-const time = moment.tz('Asia/Jakarta').format('HH:mm:ss')			
-const wita = moment.tz('Asia/Makassar').format('HH:mm:ss')			
-const wit = moment.tz('Asia/Jayapura').format('HH:mm:ss')	
+spc2 = '\n                '
+spc3 = '                   '
+spc4 = '       '
 
-var date = new Date();
-
-var tahun = date.getFullYear();
-var bulan1 = date.getMonth();
-var tanggal = date.getDate();
-var hari = date.getDay();
-var jams = date.getHours();
-var menit = date.getMinutes(); 
-var detik = date.getSeconds();
-var waktoo = date.getHours();
-
-switch(hari) {
-case 0: hari = 'Minggu'; break;
-case 1: hari = 'Senin'; break;
-case 2: hari = 'Selasa'; break;
-case 3: hari = 'Rabu'; break;
-case 4: hari = 'Kamis'; break;
-case 5: hari = 'Jum`at'; break;
-case 6: hari = 'Sabtu'; break;
-}
-
-switch(bulan1) { 
-case 0: bulan1 = 'kurruari'; break;
-case 1: bulan1 = 'Februari'; break; 
-case 2: bulan1 = 'Maret'; break;
-case 3: bulan1 = 'April'; break;
-case 4: bulan1 = 'Mei'; break;
-case 5: bulan1 = 'Juni'; break;
-case 6: bulan1 = 'Juli'; break;
-case 7: bulan1 = 'Agustus'; break;
-case 8: bulan1 = 'September'; break;
-case 9: bulan1 = 'Oktober'; break; 
-case 10: bulan1 = 'November'; break;
-case 11: bulan1 = 'Desember'; break; 
-}
-
-switch(jams){
-case 0: pada = "Malem"; break;
-case 1: pada = "Malem"; break;
-case 2: pada = "Malem"; break;
-case 3: pada = "Pagi"; break;
-case 4: pada = "Pagi"; break;
-case 5: pada = "Pagi"; break;
-case 6: pada = "Pagi"; break;
-case 7: pada = "Pagi"; break;
-case 8: pada = "Pagi"; break;
-case 9: pada = "Pagi"; break;
-case 10: pada = "Pagi"; break;
-case 11: pada = "Siang"; break;
-case 12: pada = "Siang"; break;
-case 13: pada = "Siang"; break;
-case 14: pada = "Siang"; break;
-case 15: pada = "Sore"; break;
-case 16: pada = "Sore"; break;
-case 17: pada = "Sore"; break;
-case 18: pada = "Malem"; break;
-case 19: pada = "Malem"; break;
-case 20: pada = "Malem"; break;
-case 21: pada = "Malem"; break;
-case 22: pada = "Malem"; break;
-case 23: pada = "Malem"; break;
-}
-
-var tampilHari = '' + hari + ', ' + tanggal + ' ' + bulan1 + ' ' + tahun; 
-var tampilJam = '' + 'Jams : ' + jams + ':' + menit + ':' + detik + ' Wib';
-tampilTanggal = hari + " "+ tanggal + " " + bulan1 + " " + tahun; 
-tampilWaktu =jams + ":" + menit + ":" + detik;
-
-
-
-var ase = new Date();
-var waktoonyabro = ase.getHours(); 
-switch(waktoonyabro){
-case 0: waktoonyabro = `Selamat Malam Owner..🌃`; break;
-case 1: waktoonyabro = `Selamat Malam Owner..🌃`; break;
-case 2: waktoonyabro = `Selamat Malam Owner..🌃`; break;
-case 3: waktoonyabro = `Selamat Pagi Owner..✨`; break;
-case 4: waktoonyabro = `Selamat Pagi Owner..✨`; break; 
-case 5: waktoonyabro = `Selamat Pagi Owner..✨`; break;
-case 6: waktoonyabro = `Selamat Pagi Owner..✨`; break;
-case 7: waktoonyabro = `Selamat Pagi Owner..✨`; break;
-case 8: waktoonyabro = `Selamat Pagi Owner..✨`; break;
-case 9: waktoonyabro = `Selamat Pagi Owner..✨`; break;
-case 10: waktoonyabro = `Selamat Pagi Owner..✨`; break;
-case 11: waktoonyabro = `Selamat Siang Owner..🔥`; break; 
-case 12: waktoonyabro = `Selamat Siang Owner..🔥`; break;
-case 13: waktoonyabro = `Selamat Siang Owner..🔥`; break;
-case 14: waktoonyabro = `Selamat Siang Owner..🔥`; break;
-case 15: waktoonyabro = `Selamat Sore Owner..🌇`; break;
-case 16: waktoonyabro = `Selamat Sore Owner..🌇`; break;
-case 17: waktoonyabro = `Selamat Sore Owner..🌇`; break;
-case 18: waktoonyabro = `Selamat Malam Owner..🌃`; break; 
-case 19: waktoonyabro = `Selamat Malam Owner..🌃`; break;
-case 20: waktoonyabro = `Selamat Malam Owner..🌃`; break;
-case 21: waktoonyabro = `Selamat Malam Owner..🌃`; break;
-case 22: waktoonyabro = `Selamat Malam Owner..🌃`; break; 
-case 23: waktoonyabro = `Selamat Malam Owner..🌃`; break;
-}
-
-var tampilUcapan = '' + waktoonyabro;
-
-//nocache
 require('./HermanChanel.js')
+nocache('./HermanChanel.js', module => console.log(`${module} is now updated!`))
 
 const starts = async (kurr = new WAConnection()) => {
-	kurr.logger.level = 'warn'
-	kurr.version = [2, 2140, 12]
-	console.log(color(`\x1b[1;37m> ${tampilUcapan}\n`,'cyan'))
-	console.log(color(figlet.textSync('ShinChan Yucan', {
-		font: 'Standard',
-		horizontalLayout: 'default',
-		vertivalLayout: 'default',
-		width: 80,
-		whitespaceBreak: false
-	}), 'cyan'))
-	console.log(color('\n> WIBb ','silver'), color(`${time}`,'mediumseagreen'))
-console.log(color('> WITA ','silver'), color(`${wita}`,'mediumseagreen'))
-console.log(color('> WIT ','silver'), color(`${wit}`,'mediumseagreen'))
-console.log(color('> HARI ','silver'), color(`${tampilHari}\n`,'mediumseagreen'))
-	kurr.browserDescription = [ 'ShinChan Yucan', 'ubuntu', '3.0' ]
-
-	kurr.on('qr', () => {
-	console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN QR NYA'))
-})
-	kurr.on('credentials-updated', () => {
-		fs.writeFileSync('./session.json', JSON.stringify(kurr.base64EncodedAuthInfo(), null, '\t'))
-		info('2', 'Kurz Botz Asisstan Loading...')
-	})
-	fs.existsSync('./session.json') && kurr.loadAuthInfo('./session.json')
-	kurr.on('connecting', () => {
-		start('2', 'CONNECT')
-	})
-	kurr.on('open', () => {
-		success('2', 'Tersambung')
-	})
+	console.log(color('SHINCHAN GANTENG NO DEBAT\n\n', 'orange'), color('\n======TQTO KEPADA======\n•Aldy Fauzy\n•Kemol\nSHIN-CHAN\n•ADI\n•KurrXd\n•YUDHA\n•PAJAR\n•Dcode Denpa\n•Finx\n•Subscriber\n•All Creator Botz', 'yellow'))
+	console.log(color('\n\nSUBSCRIBE LAH JAN MAKE DOANG ©HERMAN CHANEL GO1KSUBS', 'pink'))
+    kurr.logger.level = 'warn'
+    kurr.version = [2, 2143, 3]
+    kurr.browserDescription = [ 'SHIN-CHAN', 'Firefox', '3.0' ]
     
-	// session
-	await kurr.connect({
-		timeoutMs: 30 * 1000
-	})
-	fs.writeFileSync(`./session.json`, JSON.stringify(kurr.base64EncodedAuthInfo(), null, '\t'))
+    kurr.on('qr', () => {
+        console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan bang'))
+    })
 
-	// Baterai
-	kurr.on('CB:action,,battery', json => {
-		global.batteryLevelStr = json[2][0][1].value
-		global.batterylevel = parseInt(batteryLevelStr)
-		baterai = batterylevel
-		if (json[2][0][1].live == 'true') charging = true
-		if (json[2][0][1].live == 'false') charging = false
-		console.log(json[2][0][1])
-		console.log('Baterai : ' + batterylevel + '%')
-	})
-	global.batrei = global.batrei ? global.batrei : []
-	kurr.on('CB:action,,battery', json => {
-		const batteryLevelStr = json[2][0][1].value
-		const batterylevel = parseInt(batteryLevelStr)
-		global.batrei.push(batterylevel)
-	})
+    fs.existsSync('./session.json') && kurr.loadAuthInfo('./session.json')
+    kurr.on('connecting', () => {
+        start('2', 'Connecting...')
+    })
+    kurr.on('open', () => {
+        success('2', 'Connected')
+        setTimeout( () => { 	
+	    	}, 1000)    		    	     	
+    })
+    await kurr.connect({timeoutMs: 30*1000})
+        fs.writeFileSync('./session.json', JSON.stringify(kurr.base64EncodedAuthInfo(), null, '\t'))
+        
+        
 
-	// Send Message
-const sendButImage = async (id, text1, desc1, gam1, but = [], options = {}) => {
-      kma = gam1;
-      mhan = await kurr.prepareMessage(id, kma, MessageType.image);
-       buttonMessages = {
-        imageMessage: mhan.message.imageMessage,
-        contentText: text1,
-        footerText: desc1,
-        buttons: but,
-        headerType: 4,
-      }
-      kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
-    }
-const sendButLocation = async (id, text1, desc1, gam1, but = [], options = {}) => {
+    kurr.on('chat-update', async (message) => {
+        require('./HermanChanel.js')(kurr, message)
+        ownerNumber = ["6283146208804@s.whatsapp.net","6283146208804@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "6283146208804@s.whatsapp.net"
+       otod = `${settings.NomorOwner}@s.whatsapp.net`
+    })   
+
+kurr.on('group-participants-update', async (anu) => {
+const { text, extendedText, contact, location, liveLocation, image, video, sticker, document, audio, product } = MessageType
+if (!welkom.includes(anu.jid)) return
+		try {
+		    fkontakk = { key: {
+		    fromMe: false,
+		    participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6281220670449-6281220670449@g.us' } : {})
+		    },
+		    message: {
+		    "contactMessage":{"displayName":fake,"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;kurr;;;\nFN:kurr\nitem1.TEL;waid=6281220670449:+62 81220670449\nitem1.X-ABLabel:Mobile\nEND:VCARD"
+		     }}}
+		     const mdata = await kurr.groupMetadata(anu.jid)
+         num = anu.participants[0]
+         console.log(anu)
+         ini_user = kurr.contacts[num]
+         namaewa = ini_user.notify
+         member = mdata.participants.length
+          try {
+               var ppimg = await kurr.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`)
+            } catch {
+               var ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+            }
+            try {
+                var ppgc = await kurr.getProfilePicture(anu.jid)
+            } catch {
+               var ppgc = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+            }
+        shortpc = await axios.get(`https://tinyurl.com/api-create.php?url=${ppimg}`)
+        shortgc = await axios.get(`https://tinyurl.com/api-create.php?url=${ppgc}`)
+            if (anu.action == 'add') {
+            img = await getBuffer(`https://ziy.herokuapp.com/api/author/welcome1?pp=${shortpc.data}&nama=       @${num.split('@')[0]}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
+            teks = `
+Halo @${num.split('@')[0]} 👋\nSelamat datang di Grup
+*${mdata.subject}*
+
+🔥Intro Member Baru🔥
+${shp} Nama:
+${shp} Umur:
+${shp} Status:
+${shp} Askot:
+`
+const sendButImage = async(id, text1, desc1, gam1, but = [], options = {}) => {
 kma = gam1
-mhan = await kurr.prepareMessage(id, kma, location)
+
+mhan = await kurr.prepareMessage(mdata.id, kma, image, {thumbnail: img})
 const buttonMessages = {
-locationMessage: mhan.message.locationMessage,
+imageMessage: mhan.message.imageMessage,
 contentText: text1,
 footerText: desc1,
 buttons: but,
-headerType: 6
+headerType: 4
 }
 kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
-   // owner
+sendButImage(mdata.id, teks, 'Jangan Melanggar🌚', img, [{buttonId: 'mam', buttonText: {displayText: 'Welcome kak 👋'}, type: 1},{buttonId: '!sc', buttonText: {displayText: 'Moga Betah Ya️'}, type: 1}], {thumbnail: img, "contextInfo": {mentionedJid: [num]}, quoted: {"key": {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "P", "caption": `⏤͟͟͞͞ᵡмSʜɪɴ々Cʜᴀɴ༗`, 'jpegThumbnail': fs.readFileSync('./media/thumb.jpg')}}}})
+      
+}
+if (anu.action == 'remove') {
+buffa = await getBuffer(`https://ziy.herokuapp.com/api/author/goodbye1?pp=${shortpc.data}&nama=       @${num.split('@')[0]}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
+teks = `@${num.split('@')[0]} God Byeee Tod👋`
+const sendButImage = async(id, text1, desc1, gam1, but = [], options = {}) => {
+kma = gam1
+mhan = await kurr.prepareMessage(mdata.id, kma, image, {thumbnail: buffa})
+const buttonMessages = {
+imageMessage: mhan.message.imageMessage,
+contentText: text1,
+footerText: desc1,
+buttons: but,
+headerType: 4
+}
+kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
+}
+sendButImage(mdata.id, teks, 'Member Grup Berkurang🗿', buffa, [{buttonId: 'X - Dev Team', buttonText: {displayText: 'Bye 👋'}, type: 1}], {thumbnail: buffa, "contextInfo": {mentionedJid: [num]}, quoted: {"key": {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "P", "caption": `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`, 'jpegThumbnail': fs.readFileSync('./media/thumb.jpg')}}}})
+}
+if (anu.action == 'promote') {
+img = await getBuffer(`https://ziy.herokuapp.com/api/author/promote?pp=${shortpc.data}&nama=${encodeUrl(namaewa)}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
+teks =`
+selamat kamu telah menjadi admin group
+`
+//kurr.sendMessage(mdata.id, img, MessageType.image, {caption: teks, contextInfo: {'mentionedJid': [num]}})
+kurr.sendMessage(mdata.id, img, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]},
+            
+quoted: {
+"key": {
+"fromMe": false,
+"participant": `0@s.whatsapp.net`,
+"remoteJid": `0@s.whatsapp.net`
+},
+"message": {
+"groupInviteMessage": {
+"groupJid": "628983583288-1620319322@g.us",
+"inviteCode": "NgsCIU2lXKh3VHJT",
+"groupName": "SHIN-CHAN",
+"jpegThumbnail": fs.readFileSync('./media/thumb.jpg'),
+"caption": `ShinChan`
+}
 
+}
+}
+})
+} else if (anu.action == 'demote') {
+img = await getBuffer(`https://ziy.herokuapp.com/api/author/demote?pp=${shortpc.data}&nama=${encodeUrl(namaewa)}&namagc=${encodeUrl(mdata.subject)}&ppgc=${shortgc.data}&bg=https://i.ibb.co/XjgQzkB/b1be492ada987df650bc831b1631815e.jpg&member=${mdata.participants.length}`)
+teks = `awokawokawok gimana rasa nya di demote🐦`
+//kurr.sendMessage(mdata.id, img, MessageType.image, {caption: teks, contextInfo: {'mentionedJid': [num]}})
+kurr.sendMessage(mdata.id, img, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]},
+quoted: {
+"key": {
+"fromMe": false,
+"participant": `0@s.whatsapp.net`,
+"remoteJid": `0@s.whatsapp.net`
+},
+"message": {
+"groupInviteMessage": {
+"groupJid": "628983583288-1620319322@g.us",
+"inviteCode": "NgsCIU2lXKh3VHJT",
+"groupName": "SHIN-CHAN",
+"jpegThumbnail": fs.readFileSync('./media/thumb.jpg'),
+"caption": `ShinChan`
+}
+}
+}
+})
+}
+} catch (e) {
+console.log('Error : %s', color(e, 'red'))
+}
+})
 
-    const htod = "6282134110253@s.whatsapp.net"
+//-----------------< ANTI DELETE >---------------------\\
+antidel = true
+  kurr.on("message-delete", async (m) => {
+    if (m.key.remoteJid == "status@broadcast") return;
+    if (!m.key.fromMe && m.key.fromMe) return;
+    if (antidel === false) return m.message =
+      Object.keys(m.message)[0] === "ephemeralMessage"
+        ? m.message.ephemeralMessage.message
+        : m.message;
+    const jam = moment.tz("Asia/Jakarta").format("HH:mm:ss");
+    let d = new Date();
+    let locale = "id";
+    let gmt = new Date(0).getTime() - new Date("1 Januari 2021").getTime();
+    let weton = ["Pahing", "Pon", "Wage", "Kliwon", "Legi"][
+      Math.floor((d * 1 + gmt) / 84600000) % 5
+    ];
+    let week = d.toLocaleDateString(locale, { weekday: "long" });
+    let calender = d.toLocaleDateString(locale, {
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+    });
+    const type = Object.keys(m.message)[0];
+    kurr.sendMessage(
+      m.key.remoteJid,
+`┏◪ 「 Anti Delete 」
+┃ •Nama : @${m.participant.split("@")[0]}
+┃ •Waktu : ${jam} ${week} ${calender}
+┃ •Type : ${type}
+┗◪`,
+      MessageType.text,
+      { quoted: m.message, contextInfo: { mentionedJid: [m.participant] } }
+    );
 
-    
-
-kurr.on("group-update", async (anu) => {
-
-    metdata = await kurr.groupMetadata(anu.jid);
-
-    if (anu.announce == "false") {
-
-      teks = `- [ Group Opened ] -\n\n_Group telah dibuka oleh admin_\n_Sekarang semua member bisa mengirim pesan_`;
-
-      kurr.sendMessage(metdata.id, teks, MessageType.text);
-
-      console.log(`- [ Group Opened ] - In ${metdata.subject}`);
-
-    } else if (anu.announce == "true") {
-
-      teks = `- [ Group Closed ] -\n\n_Group telah ditutup oleh admin_\n_Sekarang hanya admin yang dapat mengirim pesan_`;
-
-      kurr.sendMessage(metdata.id, teks, MessageType.text);
-
-      console.log(`- [ Group Closed ] - In ${metdata.subject}`);
-
-    } else if (!anu.desc == "") {
-
-      tag = anu.descOwner.split("@")[0] + "@s.whatsapp.net";
-
-      teks = `- [ Group Description Change ] -\n\nDeskripsi Group telah diubah oleh Admin @${
-
-        anu.descOwner.split("@")[0]
-
-      }\n� Deskripsi Baru : ${anu.desc}`;
-
-      kurr.sendMessage(metdata.id, teks, MessageType.text, {
-
-        contextInfo: { mentionedJid: [tag] },
-
-      });
-
-      console.log(`- [ Group Description Change ] - In ${metdata.subject}`);
-
-    } else if (anu.restrict == "false") {
-
-      teks = `- [ Group Setting Change ] -\n\nEdit Group info telah dibuka untuk member\nSekarang semua member dapat mengedit info Group Ini`;
-
-      kurr.sendMessage(metdata.id, teks, MessageType.text);
-
-      console.log(`- [ Group Setting Change ] - In ${metdata.subject}`);
-
-    } else if (anu.restrict == "true") {
-
-      teks = `- [ Group Setting Change ] -\n\nEdit Group info telah ditutup untuk member\nSekarang hanya admin group yang dapat mengedit info Group Ini`;
-
-      kurr.sendMessage(metdata.id, teks, MessageType.text);
-
-      console.log(`- [ Group Setting Change ] - In ${metdata.subject}`);
-
-    }
-
+    kurr.copyNForward(m.key.remoteJid, m.message);
   });
 
-kurr.on('group-participants-update', async (anu) => {
+antical = true
+kurr.on("CB:Call", json => {
+if (antical === false) return
+let call;
+calling = JSON.parse(JSON.stringify(json))
+call = calling[1].from
+kurr.sendMessage(call, `*Sorry ${kurr.user.name} can't receive calls.*\n*Call = Block!*`, MessageType.text)
+.then(() => kurr.blockUser(call, "add"))
+})
 
-	try {
-
-		mdata = await kurr.groupMetadata(anu.jid)
-
-		console.log(anu)
-
-		if (anu.action == 'add') {
-
-			num = anu.participants[0]
-
-			try {
-
-				ppUrl = await kurr.getProfilePicture(num)
-
-				} catch {
-
-					ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
-
-				}
-
-				img = await getBuffer(ppUrl)
-
-				teks = `🌹 Hi @${num.split('@')[0]} 👋\n🌹 Selamat Datang Di Group: ${mdata.subject}\n\n Join Pada Jam: ${time} Waktu Server`
-
-				sendButImage(anu.jid, teks, `Shin-Chan Yucan`, img,but = [{buttonId:`donasi`, 
-
-               buttonText:{displayText: 'WELCOME'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
-
-			} else if (anu.action == 'remove') {
-
-			num = anu.participants[0]
-
-			try {
-
-				ppUrl = await kurr.getProfilePicture(num)
-
-				} catch {
-
-					ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
-
-				}
-
-				img = await getBuffer(ppUrl)
-
-				teks = `Daahh @${num.split('@')[0]}\nSelamat Tinggal Di Group: ${mdata.subject}`
-
-				sendButImage(anu.jid, teks, `ShinChan Yucan`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAYONARA !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
-
-			} else if (anu.action == 'promote') {
-
-			num = anu.participants[0]
-
-			try {
-
-				ppUrl = await kurr.getProfilePicture(num)
-
-				} catch {
-
-					ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
-
-				}
-
-				img = await getBuffer(ppUrl)
-
-				teks = `「 PROMOTE - DETECTED 」\n\nNama : @${num.split("@")[0]}\nStatus : Member -> Admin\nGroup : ${mdata.subject}`
-
-				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SELAMAT KAK`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
-
-			} else if (anu.action == 'demote') {
-
-			num = anu.participants[0]
-
-			try {
-
-				ppUrl = await kurr.getProfilePicture(num)
-
-				} catch {
-
-					ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
-
-				}
-
-				img = await getBuffer(ppUrl)
-
-				teks = `「 DEMOTE - DETECTED 」\n\nNama : @${num.split("@")[0]}\nStatus : Admin -> Member\nGroup : ${mdata.subject}`
-
-				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SABAR YA`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
-
-			}
-
-		} catch (e) {
-
-			console.log(e)
-
-			}
-
-		})
-		
-kurr.on('group-update', async (anu) => {
-	try { 
-	console.log(anu)
-	from = anu.jid
-	group = await kurr.groupMetadata(anu.jid)
-	if (!anu.desc == '') {
-		tag = anu.descOwner.replace('@c.us', '@s.whatsapp.net')
-		kurr.sendMessage(group.id, `Group Description Change\n\n• Admin : @${tag.split("@")[0]}\n• Group : ${group.subject}\n• descTime : ${anu.descTime}\n• descID : ${anu.descId}\n• descNew : ${anu.desc}`, MessageType.text, {contextInfo: { mentionedJid: [tag]}})
-		} else if (!anu.restrict == '') {
-			kurr.sendMessage(group.id, `Group Restrict Change\n\n• Group : ${group.subject}\n• groupId : ${anu.jid}\n• restrict : ${anu.restrict}`, MessageType.text)
-			} else if (!anu.announce == '') {
-				kurr.sendMessage(group.id, `Group Announce Change\n\n• Group : ${group.subject}\n• groupId : ${anu.jid}\n• announce : ${anu.announce}`, MessageType.text)
-				} 
-					} catch(err) {
-						e = String(err)
-						console.log(e)
-						}
-
-	})
-    kurr.on('chat-update', async (message) => {
-        require('./kurr.js')(kurr, message)
-        ownerNumber = ["6282134110253@s.whatsapp.net","6282134110253@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6282134110253@s.whatsapp.net"
-       otod = `${settings.NomorOwner}@s.whatsapp.net`
-    })  
 }
 
 /**
@@ -408,7 +245,7 @@ kurr.on('group-update', async (anu) => {
  * @param {function} cb <optional> 
  */
 function nocache(module, cb = () => { }) {
-    console.log('Module', `'${module}'`, 'is now being watched for changes')
+    console.log(chalk.bgHex('#FFDF00').underline(color('Module','black'), color(`'${module}'`, 'red'), color('is now being watched for changes', 'black')))
     fs.watchFile(require.resolve(module), async () => {
         await uncache(require.resolve(module))
         cb(module)
