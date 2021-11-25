@@ -1553,6 +1553,10 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 ☬ ${prefix}dadu
 ☬ ${prefix}semoji [ _emoji_ ]
 ☬ ${prefix}attp [ _teks_ ]
+☬ ${prefix}ttp [ _teks_ ]
+☬ ${prefix}ttp2 [ _teks_ ]
+☬ ${prefix}ttp3 [ _teks_ ]
+☬ ${prefix}ttp4 [ _teks_ ]
 ☬ ${prefix}toimg
 ☬ ${prefix}tomp3 [ _reply video_ ]
 ☬ ${prefix}tomp4 [ _reply sticker gif_ ]
@@ -1567,6 +1571,13 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 ☬ ${prefix}asupan
 ☬ ${prefix}asupan2
 ☬ ${prefix}asupant3
+│
+☬─❲ WIBU ❳─☬ツ
+冬 ${prefix}loli
+冬 ${prefix}husbu
+冬 ${prefix}milf
+冬 ${prefix}cosplay
+冬 ${prefix}wallml
 │
 ☬─❲ STORAGE ❳─☬ツ
 ☬ ${prefix}listimage
@@ -1595,7 +1606,7 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 冬 ${prefix}hentai
 冬 ${prefix}yuri
 冬 ${prefix}panties
-冬 ${prefix}neko
+冬 ${prefix}neko2
 冬 ${prefix}chiisaihentai
 冬 ${prefix}trap
 冬 ${prefix}blowjob
@@ -1618,7 +1629,7 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 冬 ${prefix}ero
 冬 ${prefix}cum
 冬 ${prefix}feet
-冬 ${prefix}yuri
+冬 ${prefix}yuri2
 冬 ${prefix}trap
 冬 ${prefix}lewd
 冬 ${prefix}feed
@@ -1662,7 +1673,12 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 ☬ *=>*
 ☬ *$*
 │
+☬─❲ NGEMEME ❳─☬ツ
+☬ ${prefix}meme
+☬ ${prefix}darkjokes
+│
 ☬─❲ OTHER/FUN ❳─☬ツ
+☬ ${prefix}quotes
 ☬ ${prefix}rate
 ☬ ${prefix}kapankah
 ☬ ${prefix}apakah
@@ -1807,6 +1823,10 @@ case 'command':
                            },
                            {
                               "title": "GroupMenu",
+                              "rowId": ""
+                           },
+                           {
+                              "title": "WibuMenu",
                               "rowId": ""
                            },
                            {
@@ -2096,6 +2116,10 @@ menu = `❏ 「 \`\`\`MENU OTHER\`\`\` 」
 🏴‍☠️ ${prefix}dadu
 🏴‍☠️ ${prefix}semoji [ _emoji_ ]
 🏴‍☠️ ${prefix}attp [ _teks_ ]
+🏴‍☠️ ${prefix}ttp [ _teks_ ]
+🏴‍☠️ ${prefix}ttp2 [ _teks_ ]
+🏴‍☠️ ${prefix}ttp3 [ _teks_ ]
+🏴‍☠️ ${prefix}ttp4 [ _teks_ ]
 🏴‍☠️ ${prefix}toimg
 🏴‍☠️ ${prefix}tomp3 [ _reply video_ ]
 🏴‍☠️ ${prefix}tomp4 [ _reply sticker gif_ ]
@@ -2105,6 +2129,18 @@ menu = `❏ 「 \`\`\`MENU OTHER\`\`\` 」
 🏴‍☠️ ${prefix}gemuk [ _reply audio_ ]
 🏴‍☠️ ${prefix}detikvn [ _reply audio caption angka_ ]
 └ ${prefix}detikvideo [ _reply video caption angka_ ]`
+katalog(menu)
+break
+case 'wibumenu':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+menu = `❏ 「 \`\`\`WIBU MENU\`\`\` 」
+🏴‍☠️────────────────────
+☬─❲ WIBU ❳─☬ツ
+冬 ${prefix}loli
+冬 ${prefix}husbu
+冬 ${prefix}milf
+冬 ${prefix}cosplay
+冬 ${prefix}wallml`
 katalog(menu)
 break
 case 'menuharam':
@@ -2122,7 +2158,7 @@ menu = `❏ 「 \`\`\`MENU HARAM\`\`\` 」
 冬 ${prefix}hentai
 冬 ${prefix}yuri
 冬 ${prefix}panties
-冬 ${prefix}neko
+冬 ${prefix}neko2
 冬 ${prefix}chiisaihentai
 冬 ${prefix}trap
 冬 ${prefix}blowjob
@@ -2145,7 +2181,7 @@ menu = `❏ 「 \`\`\`MENU HARAM\`\`\` 」
 冬 ${prefix}ero
 冬 ${prefix}cum
 冬 ${prefix}feet
-冬 ${prefix}yuri
+冬 ${prefix}yuri2
 冬 ${prefix}trap
 冬 ${prefix}lewd
 冬 ${prefix}feed
@@ -2551,6 +2587,31 @@ case 'arcade8bit':
                         kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Follow Instagram:@quotes.thenay_`, quoted : ftrol}) 
                     })
                     break
+case 'quotes':
+     ini_result = await fetchJson('https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx')
+     get_result = ini_result.result
+        ini_txt = `${get_result.quotes}\n\n`
+       ini_txt += `~ ${get_result.author}`
+     reply(ini_txt)
+     break					
+					//menu haram
+					case 'ass': 
+					case 'ahegao': 
+					case 'yuri2': 
+					case 'panties': 					
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    ini_result = await fetchJson(`https://xnxxapi.herokuapp.com/api/nsfw/${command}?apikey=xnxx`)
+     get_result = ini_result.result
+        ini_img = await getBuffer(get_result)
+     kurr.sendMessage(from, ini_img, image, {quoted:mek})
+     break
+     case 'neko2': 
+     if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    ini_result = await fetchJson(`https://xnxxapi.herokuapp.com/api/nsfw/nsfwNeko?apikey=xnxx`)
+     get_result = ini_result.result
+        ini_img = await getBuffer(get_result)
+     kurr.sendMessage(from, ini_img, image, {quoted:mek})
+     break
 //🐀💰 MALING
                    case 'trigger':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
@@ -4826,12 +4887,15 @@ break
 					atetepe = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURIComponent(c)}`)
 					kurr.sendMessage(from, atetepe, sticker, { quoted: mek })
 					break
-                case 'ttp':  
+                case 'ttp4':  
+				case 'ttp2':  
+				case 'ttp3':  
+				case 'ttp':  
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp Herman chanel`)
-                    anu1 = await getBuffer(`https://api.xteam.xyz/ttp?file&text=${c}`)
-                    kurr.sendMessage(from, anu1, image, {quoted: mek, caption : `${prefix}sticker`})
-                    break
+					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp ${NamaBot}`)
+					atetepe = await getBuffer(`https://api.lolhuman.xyz/api/${command}?apikey=KurrXd&text=${encodeURIComponent(c)}`)
+					kurr.sendMessage(from, atetepe, sticker, { quoted: mek })
+					break
 				case 'semoji':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 			if (args === 0) return reply('emojinya?')   
