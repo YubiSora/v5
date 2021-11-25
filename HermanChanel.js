@@ -1922,61 +1922,283 @@ break
 					buffer1 = await getBuffer(anu.result.results)
 					kurr.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./thumb.jpg')})
 					break							
-case 'meme':
-  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-sticWait(from)
-anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/darkjokes?apikey=${YuzApi}`)
-buff = await getBuffer(anu.result.result)
-gbutsan = [{buttonId:`meme`,buttonText:{displayText:'LANJUT➡️'},type:1}]
-mhan = await kurr.prepareMessage(from, buff, image, {thumbnail: buff})
-const buttonMessagessss = {
-imageMessage: mhan.message.imageMessage,
-contentText: `Ngedark Bos`,
-footerText: '*_©⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗_*',
-buttons: gbutsan,
-headerType: 4
-}
-kurr.sendMessage(from, buttonMessagessss, MessageType.buttonsMessage, {
-        thumbnail: fs.readFileSync('./thumb.jpg'),
-        caption: 'Tes',
-            quoted: mek})
-break
+// nfsw
+case 'chiisaihentai':
+                case 'trap':
+                case 'blowjob':
+                case 'yaoi':
+                case 'ecchi':
+                case 'ahegao':
+                case 'hololewd':
+                case 'sideoppai':
+                case 'animefeets':
+                case 'animebooty':
+                case 'animethighss':
+                case 'hentaiparadise':
+                case 'animearmpits':
+                case 'hentaifemdom':
+                case 'lewdanimegirls':
+                case 'biganimetiddies':
+                case 'animebellybutton':
+                case 'hentai4everyone':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+              buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=KurrXd`)
+              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+              imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
+              buttonsMessage = {footerText:'✗✗✗ ShinChan', imageMessage: imageMsg,
+              contentText:`⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`,buttons,headerType:4}
+              prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
+              kurr.relayWAMessage(prep)
+              break
+                    case 'darkjokes':
+                    case 'meme':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+              buff = await getBuffer(`https://api.lolhuman.xyz/api/meme/darkjoke?apikey=KurrXd`)
+              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+              imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
+              buttonsMessage = {footerText:'✗✗✗ ShinChan', imageMessage: imageMsg,
+              contentText:`⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`,buttons,headerType:4}
+              prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
+              kurr.relayWAMessage(prep)
+                    break
+case 'bj':
+                case 'ero':
+                case 'cum':
+                case 'feet':
+                case 'yuri':
+                case 'trap':
+                case 'lewd':
+                case 'feed':
+                case 'eron':
+                case 'solo':
+                case 'gasm':
+                case 'poke':
+                case 'anal':
+                case 'holo':
+                case 'tits':
+                case 'kuni':
+                case 'kiss':
+                case 'erok':
+                case 'smug':
+                case 'baka':
+                case 'solog':
+                case 'feetg':
+                case 'lewdk':
+                case 'waifu':
+                case 'pussy':
+                case 'femdom':
+                case 'cuddle':
+                case 'eroyuri':
+                case 'cum_jpg':
+                case 'blowjob':
+                case 'erofeet':
+                case 'holoero':
+                case 'classic':
+                case 'erokemo':
+                case 'fox_girl':
+                case 'futanari':
+                case 'lewdkemo':
+                case 'wallpaper':
+                case 'pussy_jpg':
+                case 'kemonomimi':
+                case 'nsfw_avatar':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+               buff = await getBuffer(`https://api.lolhuman.xyz/api/random2/${command}?apikey=KurrXd`)
+                buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+              imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
+              buttonsMessage = {footerText:'✗✗✗ ShinChan', imageMessage: imageMsg,
+              contentText:`⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`,buttons,headerType:4}
+              prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
+              kurr.relayWAMessage(prep)
+        
+                    break
 case 'loli':
-if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-loli = await getBuffer(`http://hadi-api.herokuapp.com/api/loli`)
-but = [
-{ buttonId: 'loli', buttonText: { displayText: 'NEXT ⿻' }, type: 1 }
-]
-sendButImage(from, `LOLI NYA KAK`, `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`, loli, but)
-break
+       case 'husbu':
+       case 'milf':
+       case 'cosplay':
+       case 'wallml':
+       if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+              let wipu = (await axios.get(`https://raw.githubusercontent.com/Arya-was/endak-tau/main/${command}.json`)).data
+              let wipi = wipu[Math.floor(Math.random() * (wipu.length))]
+              fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
+		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+              imageMsg = ( await kurr.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
+              buttonsMessage = {footerText:'✗✗✗ ShinChan', imageMessage: imageMsg,
+              contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
+              prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
+              kurr.relayWAMessage(prep)
+              fs.unlinkSync(`./${sender}.jpeg`)
+              break
+//
+case 'blackpink':
+                case 'neon':
+                case 'greenneon':
+                case 'advanceglow':
+                case 'futureneon':
+                case 'sandwriting':
+                case 'sandsummer':
+                case 'sandengraved':
+                case 'metaldark':
+                case 'neonlight':
+                case 'holographic':
+                case 'text1917':
+                case 'minion':
+                case 'deluxesilver':
+                case 'newyearcard':
+                case 'bloodfrosted':
+                case 'halloween':
+                case 'jokerlogo':
+                case 'fireworksparkle':
+                case 'natureleaves':
+                case 'bokeh':
+                case 'toxic':
+                case 'strawberry':
+                case 'box3d':
+                case 'roadwarning':
+                case 'breakwall':
+                case 'icecold':
+                case 'luxury':
+                case 'cloud':
+                case 'summersand':
+                case 'horrorblood':
+                case 'thunder':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length == 0) return reply(`Example: ${prefix + command} ShinChan`)
+                    ini_txt = args.join(" ")
+                    getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=KurrXd&text=${ini_txt}`).then((gambar) => {
+                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Follow Instagram:@quotes.thenay_`, quoted : ftrol})
+                    })
+                    break
+                case 'pornhub':
+                case 'glitch':
+                case 'avenger':
+                case 'space':
+                case 'ninjalogo':
+                case 'marvelstudio':
+                case 'lionlogo':
+                case 'wolflogo':
+                case 'steel3d':
+                case 'wallgravity':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length == 0) return reply(`Example: ${prefix + command} ShinChan`)
+                    txt1 = args[0]
+                    txt2 = args[1]
+                    getBuffer(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=KurrXd&text1=${txt1}&text2=${txt2}`).then((gambar) => {
+                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Follow Instagram:@quotes.thenay_`, quoted : ftrol})
+                    })
+                    break
 case 'neko':
-neko = await getBuffer(`http://hadi-api.herokuapp.com/api/neko`)
-but = [
-{ buttonId: 'STOP', buttonText: { displayText: 'STOP ✔︎' }, type: 1 },
-{ buttonId: 'neko', buttonText: { displayText: 'NEXT🤤' }, type: 1 }
-]
-sendButImage(from, `JANGAN NGOCOK YA BANG🗿`, `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`, neko, but)
-break
-case 'nekoanime':
-xzn = await fetchJson(`https://python-api-zhirrr.herokuapp.com/api/nekonime`)
-xzns = xzn.result
-xznse = await getBuffer(xzns)
-but = [{buttonId: 'STOP', buttonText: { displayText: 'STOP ✔︎' }, type: 1 }, { buttonId: 'nekoanime', buttonText: { displayText: 'NEXT🤤' }, type: 1 }]
-sendButImage(from, `KUCING BANG`, `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`, xznse, but)
-break
-//wibu sagne
-case 'hentai':
-xm = await fetchJson(`https://www.nekos.life/api/v2/img/hentai`)
-hasil = await getBuffer(xm.url)
-but = [{ buttonId: 'STOP', buttonText: { displayText: ' STOP ✔︎' }, type: 1 }, { buttonId: 'hentai', buttonText: { displayText: 'NEXT🤤' }, type: 1 }]
-sendButImage(from, `Sakit Encok\nSange Dikit Langsung Ngocok`, `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`, hasil, but) 
-break
-case 'yuri':
-xm = await fetchJson(`https://www.nekos.life/api/v2/img/yuri`)
-hasil = await getBuffer(xm.url)
-but = [{ buttonId: 'STOP', buttonText: { displayText: ' STOP ✔︎' }, type: 1 }, { buttonId: 'yuri', buttonText: { displayText: 'NEXT🤤' }, type: 1 }]
-sendButImage(from, `Sakit Encok\nSange Dikit Langsung Ngocok`, `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`, hasil, but) 
-break
+       case 'kanna':
+       case 'sagiri':
+       case 'megumin':
+       case 'wallnime':
+       if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+              reply(mess.wait)
+              buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=KurrXd`)
+              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+              imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
+              buttonsMessage = {footerText:'✗✗✗ ShinChan', imageMessage: imageMsg,
+              contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
+              prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
+              kurr.relayWAMessage(prep)
+    
+              break
+       
+       case 'hentai':
+       if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+              reply(mess.wait)
+              buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/hentai?apikey=KurrXd`)
+              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+              imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
+              buttonsMessage = {footerText:'✗✗✗ ShinChan', imageMessage: imageMsg,
+              contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
+              prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
+              kurr.relayWAMessage(prep)
+    
+              break
+
+                    // Photo Oxy //
+                case 'shadow':
+                case 'cup':
+                case 'cup1':
+                case 'romance':
+                case 'smoke':
+                case 'burnpaper':
+                case 'lovemessage':
+                case 'undergrass':
+                case 'love':
+                case 'coffe':
+                case 'woodheart':
+                case 'woodenboard':
+                case 'summer3d':
+                case 'wolfmetal':
+                case 'nature3d':
+                case 'underwater':
+                case 'golderrose':
+                case 'summernature':
+                case 'letterleaves':
+                case 'glowingneon':
+                case 'fallleaves':
+                case 'flamming':
+                case 'harrypotter':
+                case 'carvedwood':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length == 0) return reply(`Example: ${prefix + command} ShinChan`)
+                    ini_txt = args.join(" ")
+                    getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=KurrXd&text=${ini_txt}`).then((gambar) => {
+                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗`, quoted : ftrol})
+                    })
+                    break
+case 'arcade8bit':
+                case 'battlefield4':
+                case 'pubg':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length == 0) return reply(`Example: ${prefix + command} ShinChan`)
+                    txt1 = args[0]
+                    txt2 = args[1]
+                    getBuffer(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=KurrXd&text1=${txt1}&text2=${txt2}`).then((gambar) => {
+                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Follow Instagram:@quotes.thenay_`, quoted : ftrol})
+                    })
+                    break
+
+                    // Ephoto 360 //
+                case 'wetglass':
+                case 'multicolor3d':
+                case 'watercolor':
+                case 'luxurygold':
+                case 'galaxywallpaper':
+                case 'lighttext':
+                case 'beautifulflower':
+                case 'puppycute':
+                case 'royaltext':
+                case 'heartshaped':
+                case 'birthdaycake':
+                case 'galaxystyle':
+                case 'hologram3d':
+                case 'greenneon':
+                case 'glossychrome':
+                case 'greenbush':
+                case 'metallogo':
+                case 'noeltext':
+                case 'glittergold':
+                case 'textcake':
+                case 'starsnight':
+                case 'wooden3d':
+                case 'textbyname':
+                case 'writegalacy':
+                case 'galaxybat':
+                case 'snow3d':
+                case 'birthdayday':
+                case 'goldplaybutton':
+                case 'silverplaybutton':
+                case 'freefire':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length == 0) return reply(`Example: ${prefix + command} ShinChan`)
+                    ini_txt = args.join(" ")
+                    getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=KurrXd&text=${ini_txt}`).then((gambar) => {
+                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Follow Instagram:@quotes.thenay_`, quoted : ftrol}) 
+                    })
+                    break
 //🐀💰 MALING
                    case 'trigger':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
