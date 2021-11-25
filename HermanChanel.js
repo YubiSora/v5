@@ -1405,14 +1405,113 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 ☬ ${prefix}otaku [ _search_ ]
 ☬ ${prefix}komiku [ _search_ ]
 │
-☬─❲ MAKER ❳─☬ツ
-☬ ${prefix}foliokanan [ _text_ ]
-☬ ${prefix}foliokiri [ _text_ ]
-☬ ${prefix}nuliskanan [ _text_ ]
-☬ ${prefix}nuliskiri [ _text_ ]
-☬ ${prefix}maker3d [ _text_ ]
-☬ ${prefix}maker2d [ _text_ ]
-☬ ${prefix}epepserti [ _text_ ]
+☬─❲ MAKER MENU ❳─☬ツ
+冬 ${prefix}blackpink
+冬 ${prefix}neon
+冬 ${prefix}greenneon
+冬 ${prefix}advanceglow
+冬 ${prefix}futureneon
+冬 ${prefix}sandwriting
+冬 ${prefix}sandsummer
+冬 ${prefix}sandengraved
+冬 ${prefix}metaldark
+冬 ${prefix}neonlight
+冬 ${prefix}holographic
+冬 ${prefix}text1917
+冬 ${prefix}minion
+冬 ${prefix}deluxesilver
+冬 ${prefix}newyearcard
+冬 ${prefix}bloodfrosted
+冬 ${prefix}halloween
+冬 ${prefix}jokerlogo
+冬 ${prefix}fireworksparkle
+冬 ${prefix}natureleaves
+冬 ${prefix}bokeh
+冬 ${prefix}toxic
+冬 ${prefix}strawberry
+冬 ${prefix}box3d
+冬 ${prefix}roadwarning
+冬 ${prefix}breakwall
+冬 ${prefix}icecold
+冬 ${prefix}luxury
+冬 ${prefix}cloud
+冬 ${prefix}summersand
+冬 ${prefix}horrorblood
+冬 ${prefix}thunder
+冬 ${prefix}pornhub
+冬 ${prefix}glitch
+冬 ${prefix}avenger
+冬 ${prefix}space
+冬 ${prefix}ninjalogo
+冬 ${prefix}marvelstudio
+冬 ${prefix}lionlogo
+冬 ${prefix}wolflogo
+冬 ${prefix}steel3d
+冬 ${prefix}wallgravity
+冬 ${prefix}shadow
+冬 ${prefix}cup
+冬 ${prefix}cup1
+冬 ${prefix}romance
+冬 ${prefix}smoke
+冬 ${prefix}burnpaper
+冬 ${prefix}lovemessage
+冬 ${prefix}undergrass
+冬 ${prefix}love
+冬 ${prefix}coffe
+冬 ${prefix}woodheart
+冬 ${prefix}woodenboard
+冬 ${prefix}summer3d
+冬 ${prefix}wolfmetal
+冬 ${prefix}nature3d
+冬 ${prefix}underwater
+冬 ${prefix}golderrose
+冬 ${prefix}summernature
+冬 ${prefix}letterleaves
+冬 ${prefix}glowingneon
+冬 ${prefix}fallleaves
+冬 ${prefix}flamming
+冬 ${prefix}harrypotter
+冬 ${prefix}carvedwood
+冬 ${prefix}arcade8bit
+冬 ${prefix}battlefield4
+冬 ${prefix}pubg
+冬 ${prefix}wetglass
+冬 ${prefix}multicolor3d
+冬 ${prefix}watercolor
+冬 ${prefix}luxurygold
+冬 ${prefix}galaxywallpaper
+冬 ${prefix}lighttext
+冬 ${prefix}beautifulflower
+冬 ${prefix}puppycute
+冬 ${prefix}royaltext
+冬 ${prefix}heartshaped
+冬 ${prefix}birthdaycake
+冬 ${prefix}galaxystyle
+冬 ${prefix}hologram3d
+冬 ${prefix}greenneon
+冬 ${prefix}glossychrome
+冬 ${prefix}greenbush
+冬 ${prefix}metallogo
+冬 ${prefix}noeltext
+冬 ${prefix}glittergold
+冬 ${prefix}textcake
+冬 ${prefix}starsnight
+冬 ${prefix}wooden3d
+冬 ${prefix}textbyname
+冬 ${prefix}writegalacy
+冬 ${prefix}galaxybat
+冬 ${prefix}snow3d
+冬 ${prefix}birthdayday
+冬 ${prefix}goldplaybutton
+冬 ${prefix}silverplaybutton
+冬 ${prefix}freefire
+冬 ${prefix}foliokanan [ _text_ ]
+冬 ${prefix}foliokiri [ _text_ ]
+冬 ${prefix}nuliskanan [ _text_ ]
+冬 ${prefix}nuliskiri [ _text_ ]
+冬 ${prefix}maker3d [ _text_ ]
+冬 ${prefix}maker2d [ _text_ ]
+冬 ${prefix}epepserti [ _text_ ]
 │
 ☬─❲ GROUP ❳─☬ツ
 ☬ ${prefix}getpict [ _@tag_ ]
@@ -1484,6 +1583,79 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 ☬ ${prefix}stopjadibot
 ☬ ${prefix}jadibot
 │
+☬─❲ MENU HARAM ❳─☬ツ
+冬 ${prefix}bokep
+冬 ${prefix}neko
+冬 ${prefix}kanna
+冬 ${prefix}sagiri
+冬 ${prefix}megumin
+冬 ${prefix}wallnime
+冬 ${prefix}ass
+冬 ${prefix}ahegao
+冬 ${prefix}hentai
+冬 ${prefix}yuri
+冬 ${prefix}panties
+冬 ${prefix}neko
+冬 ${prefix}chiisaihentai
+冬 ${prefix}trap
+冬 ${prefix}blowjob
+冬 ${prefix}yaoi
+冬 ${prefix}ecchi
+冬 ${prefix}ahegao
+冬 ${prefix}hololewd
+冬 ${prefix}sideoppai
+冬 ${prefix}animefeets
+冬 ${prefix}animebooty
+冬 ${prefix}animethighss
+冬 ${prefix}hentaiparadise
+冬 ${prefix}animearmpits
+冬 ${prefix}hentaifemdom
+冬 ${prefix}lewdanimegirls
+冬 ${prefix}biganimetiddies
+冬 ${prefix}animebellybutton
+冬 ${prefix}hentai4everyone
+冬 ${prefix}bj
+冬 ${prefix}ero
+冬 ${prefix}cum
+冬 ${prefix}feet
+冬 ${prefix}yuri
+冬 ${prefix}trap
+冬 ${prefix}lewd
+冬 ${prefix}feed
+冬 ${prefix}eron
+冬 ${prefix}solo
+冬 ${prefix}gasm
+冬 ${prefix}poke
+冬 ${prefix}anal
+冬 ${prefix}holo
+冬 ${prefix}tits
+冬 ${prefix}kuni
+冬 ${prefix}kiss
+冬 ${prefix}erok
+冬 ${prefix}smug
+冬 ${prefix}baka
+冬 ${prefix}solog
+冬 ${prefix}feetg
+冬 ${prefix}lewdk
+冬 ${prefix}waifu
+冬 ${prefix}pussy
+冬 ${prefix}femdom
+冬 ${prefix}cuddle
+冬 ${prefix}eroyuri
+冬 ${prefix}cum_jpg
+冬 ${prefix}blowjob
+冬 ${prefix}erofeet
+冬 ${prefix}holoero
+冬 ${prefix}classic
+冬 ${prefix}erokemo
+冬 ${prefix}fox_girl
+冬 ${prefix}futanari
+冬 ${prefix}lewdkemo
+冬 ${prefix}wallpaper
+冬 ${prefix}pussy_jpg
+冬 ${prefix}kemonomimi
+冬 ${prefix}nsfw_avatar
+│
 ☬─❲ EVAL ❳─☬ツ
 ☬ *x*
 ☬ *>*
@@ -1520,14 +1692,14 @@ anu = kurr.prepareMessageFromContent(from,{
 					"productMessage": {
 						"product": {
 								"productImage": {
-								 "url": "https://mmg.whatsapp.net/d/f/AknVJVepBCSta7217eFiWGF7beY8mlwIF7zqySqeO0xQ.enc",
-								"mimetype": "image/jpeg",
-								"fileSha256": "5YMttpwQBEdk34OBK4zbwi11U61KmzZ63cPorni5epk=",
-								"fileLength": "79514",
-								"height": 562,
-								"width": 1000,
-								"mediaKey": "xYGwWYQhfnZNYBDfHpR87VAKuv2mtLbSMCkIZoi6tE4=",
-								"fileEncSha256": "faOYnePaeqvqBVqjY4JnqF+sDKNDu7x73ACl//jDiUg=",
+								 "url": "https://mmg.whatsapp.net/d/f/ArOK6JYC4LIwG8IBSkzANX_lRn3GDBkeOfu0zeaZGlZS.enc",
+						"mimetype": "image/jpeg",
+						"fileSha256": "QdTrU3VfgJNttQrHT/tvbwew7S4nSMQcbPLQFKS8qyw=",
+						"fileLength": "44077",
+						"height": 640,
+						"width": 640,
+						"mediaKey": "ibMQBV88k/jdyv2p4VSN1x/pymsWU3vjULCynKcHfzc=",
+						"fileEncSha256": "Oi/vUfezzCvb6mL+oAL2aN8SFhwEZqsjC2qewV3tIzA=",
 						"jpegThumbnail": fs.readFileSync('./media/thumb.jpg')
                                 },
                             "productId": "4626894507357122",
@@ -1642,6 +1814,10 @@ case 'command':
                               "rowId": ""
                            },
                            {
+                              "title": "MenuHaram",
+                              "rowId": ""
+                           },
+                           {
                               "title": "DownloadMenu",
                               "rowId": ""
                            }
@@ -1743,14 +1919,113 @@ katalog(menu)
 break
 case 'makermenu':
 menu = `❏ 「 \`\`\`MENU MAKER\`\`\` 」
-🏴‍☠️─❒ MAKER
-🏴‍☠️ ${prefix}foliokanan [ _text_ ]
-🏴‍☠️ ${prefix}foliokiri [ _text_ ]
-🏴‍☠️ ${prefix}nuliskanan [ _text_ ]
-🏴‍☠️ ${prefix}nuliskiri [ _text_ ]
-🏴‍☠️ ${prefix}maker3d [ _text_ ]
-🏴‍☠️ ${prefix}maker2d [ _text_ ]
-🏴‍☠️ ${prefix}epepserti [ _text_ ]`
+─❒ MAKER
+冬 ${prefix}blackpink
+冬 ${prefix}neon
+冬 ${prefix}greenneon
+冬 ${prefix}advanceglow
+冬 ${prefix}futureneon
+冬 ${prefix}sandwriting
+冬 ${prefix}sandsummer
+冬 ${prefix}sandengraved
+冬 ${prefix}metaldark
+冬 ${prefix}neonlight
+冬 ${prefix}holographic
+冬 ${prefix}text1917
+冬 ${prefix}minion
+冬 ${prefix}deluxesilver
+冬 ${prefix}newyearcard
+冬 ${prefix}bloodfrosted
+冬 ${prefix}halloween
+冬 ${prefix}jokerlogo
+冬 ${prefix}fireworksparkle
+冬 ${prefix}natureleaves
+冬 ${prefix}bokeh
+冬 ${prefix}toxic
+冬 ${prefix}strawberry
+冬 ${prefix}box3d
+冬 ${prefix}roadwarning
+冬 ${prefix}breakwall
+冬 ${prefix}icecold
+冬 ${prefix}luxury
+冬 ${prefix}cloud
+冬 ${prefix}summersand
+冬 ${prefix}horrorblood
+冬 ${prefix}thunder
+冬 ${prefix}pornhub
+冬 ${prefix}glitch
+冬 ${prefix}avenger
+冬 ${prefix}space
+冬 ${prefix}ninjalogo
+冬 ${prefix}marvelstudio
+冬 ${prefix}lionlogo
+冬 ${prefix}wolflogo
+冬 ${prefix}steel3d
+冬 ${prefix}wallgravity
+冬 ${prefix}shadow
+冬 ${prefix}cup
+冬 ${prefix}cup1
+冬 ${prefix}romance
+冬 ${prefix}smoke
+冬 ${prefix}burnpaper
+冬 ${prefix}lovemessage
+冬 ${prefix}undergrass
+冬 ${prefix}love
+冬 ${prefix}coffe
+冬 ${prefix}woodheart
+冬 ${prefix}woodenboard
+冬 ${prefix}summer3d
+冬 ${prefix}wolfmetal
+冬 ${prefix}nature3d
+冬 ${prefix}underwater
+冬 ${prefix}golderrose
+冬 ${prefix}summernature
+冬 ${prefix}letterleaves
+冬 ${prefix}glowingneon
+冬 ${prefix}fallleaves
+冬 ${prefix}flamming
+冬 ${prefix}harrypotter
+冬 ${prefix}carvedwood
+冬 ${prefix}arcade8bit
+冬 ${prefix}battlefield4
+冬 ${prefix}pubg
+冬 ${prefix}wetglass
+冬 ${prefix}multicolor3d
+冬 ${prefix}watercolor
+冬 ${prefix}luxurygold
+冬 ${prefix}galaxywallpaper
+冬 ${prefix}lighttext
+冬 ${prefix}beautifulflower
+冬 ${prefix}puppycute
+冬 ${prefix}royaltext
+冬 ${prefix}heartshaped
+冬 ${prefix}birthdaycake
+冬 ${prefix}galaxystyle
+冬 ${prefix}hologram3d
+冬 ${prefix}greenneon
+冬 ${prefix}glossychrome
+冬 ${prefix}greenbush
+冬 ${prefix}metallogo
+冬 ${prefix}noeltext
+冬 ${prefix}glittergold
+冬 ${prefix}textcake
+冬 ${prefix}starsnight
+冬 ${prefix}wooden3d
+冬 ${prefix}textbyname
+冬 ${prefix}writegalacy
+冬 ${prefix}galaxybat
+冬 ${prefix}snow3d
+冬 ${prefix}birthdayday
+冬 ${prefix}goldplaybutton
+冬 ${prefix}silverplaybutton
+冬 ${prefix}freefire
+冬 ${prefix}foliokanan [ _text_ ]
+冬 ${prefix}foliokiri [ _text_ ]
+冬 ${prefix}nuliskanan [ _text_ ]
+冬 ${prefix}nuliskiri [ _text_ ]
+冬 ${prefix}maker3d [ _text_ ]
+冬 ${prefix}maker2d [ _text_ ]
+冬 ${prefix}epepserti [ _text_ ]`
 katalog(menu)
 break
 case 'groupmenu':
@@ -1830,6 +2105,83 @@ menu = `❏ 「 \`\`\`MENU OTHER\`\`\` 」
 🏴‍☠️ ${prefix}gemuk [ _reply audio_ ]
 🏴‍☠️ ${prefix}detikvn [ _reply audio caption angka_ ]
 └ ${prefix}detikvideo [ _reply video caption angka_ ]`
+katalog(menu)
+break
+case 'menuharam':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+menu = `❏ 「 \`\`\`MENU HARAM\`\`\` 」
+🏴‍☠️────────────────────
+冬 ${prefix}bokep
+冬 ${prefix}neko
+冬 ${prefix}kanna
+冬 ${prefix}sagiri
+冬 ${prefix}megumin
+冬 ${prefix}wallnime
+冬 ${prefix}ass
+冬 ${prefix}ahegao
+冬 ${prefix}hentai
+冬 ${prefix}yuri
+冬 ${prefix}panties
+冬 ${prefix}neko
+冬 ${prefix}chiisaihentai
+冬 ${prefix}trap
+冬 ${prefix}blowjob
+冬 ${prefix}yaoi
+冬 ${prefix}ecchi
+冬 ${prefix}ahegao
+冬 ${prefix}hololewd
+冬 ${prefix}sideoppai
+冬 ${prefix}animefeets
+冬 ${prefix}animebooty
+冬 ${prefix}animethighss
+冬 ${prefix}hentaiparadise
+冬 ${prefix}animearmpits
+冬 ${prefix}hentaifemdom
+冬 ${prefix}lewdanimegirls
+冬 ${prefix}biganimetiddies
+冬 ${prefix}animebellybutton
+冬 ${prefix}hentai4everyone
+冬 ${prefix}bj
+冬 ${prefix}ero
+冬 ${prefix}cum
+冬 ${prefix}feet
+冬 ${prefix}yuri
+冬 ${prefix}trap
+冬 ${prefix}lewd
+冬 ${prefix}feed
+冬 ${prefix}eron
+冬 ${prefix}solo
+冬 ${prefix}gasm
+冬 ${prefix}poke
+冬 ${prefix}anal
+冬 ${prefix}holo
+冬 ${prefix}tits
+冬 ${prefix}kuni
+冬 ${prefix}kiss
+冬 ${prefix}erok
+冬 ${prefix}smug
+冬 ${prefix}baka
+冬 ${prefix}solog
+冬 ${prefix}feetg
+冬 ${prefix}lewdk
+冬 ${prefix}waifu
+冬 ${prefix}pussy
+冬 ${prefix}femdom
+冬 ${prefix}cuddle
+冬 ${prefix}eroyuri
+冬 ${prefix}cum_jpg
+冬 ${prefix}blowjob
+冬 ${prefix}erofeet
+冬 ${prefix}holoero
+冬 ${prefix}classic
+冬 ${prefix}erokemo
+冬 ${prefix}fox_girl
+冬 ${prefix}futanari
+冬 ${prefix}lewdkemo
+冬 ${prefix}wallpaper
+冬 ${prefix}pussy_jpg
+冬 ${prefix}kemonomimi
+冬 ${prefix}nsfw_avatar`
 katalog(menu)
 break
 // BIAR GAK LUPA 
@@ -5296,7 +5648,7 @@ if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 						"displayName": "7 kontak",
 						"contacts": [
 							{
-								"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽️/>;;;\nFN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽/>\nitem1.TEL;waid=6282134110253:+62 821-3411-0253\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆??️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️️️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
+								"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽️/>;;;\nFN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽/>\nitem1.TEL;waid=6282134110253:+62 821-3411-0253\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆??️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️️️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕?? 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
 							},
 							{
 								"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽/>;;;\nFN:〽️⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗〽/>\nitem1.TEL;waid=0:+0\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈??𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕?? 咽翁 𝔹𝕆??️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️\nADR;TYPE=WORK:HOME;WHATSAPP.NET:𝘈𝘙𝘌𝘟𝘈𝘕𝘚 咽翁 𝔹𝕆𝕋️️️️\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
