@@ -3751,13 +3751,13 @@ await kurr.sendMessage(from, buttonMessage, MessageType.buttonsMessage, {quoted:
 					break
 case 'autovn':
       if (!isOwner && !mek.key.fromMe) return sticOwner(from)
-           if (c === 'on'){
+           if (q === 'on'){
              autovn = true
                     reply(`Berhasil mengaktifkan autovn`)
-                } else if (c === 'off'){
-                    antidelete = false
+                } else if (q === 'off'){
+                    autovn = false
                     reply(`Berhasil menonaktifkan autovn`)
-                } else if (!c) {
+                } else if (!q) {
                     anu =`Silahkan pilih salah satu\n\non: untuk mengaktifkan\noff: untuk menonaktifkan`
 const buttons = [{buttonId: 'autovn on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autovn off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const buttonMessage = {
