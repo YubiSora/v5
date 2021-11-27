@@ -3714,15 +3714,15 @@ await kurr.sendMessage(from, btnharam, MessageType.buttonsMessage, {quoted: ftro
                 break
                 case 'antidelete':
       if (!isOwner && !mek.key.fromMe) return sticOwner(from)
-           if (c === 'on'){
-             antidelete = false
+           if (q === 'on'){
+             antidelete = true
                     reply(`Berhasil mengaktifkan antidelete`)
-                } else if (c === 'off'){
-                    antidelete = true
+                } else if (q === 'off'){
+                    antidelete = false
                     reply(`Berhasil menonaktifkan antidelete`)
-                } else if (!c) {
+                } else if (!q) {
                     anu =`Silahkan pilih salah satu\n\non: untuk mengaktifkan\noff: untuk menonaktifkan`
-const buttons = [{buttonId: 'antideletee on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'antideletee off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
+const buttons = [{buttonId: 'antidelete on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'antidelete off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
     footerText: '*_©⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗_*',
@@ -3770,31 +3770,45 @@ await kurr.sendMessage(from, buttonMessage, MessageType.buttonsMessage, {quoted:
                 }
                 break
 case 'autotype':
-if (!isOwner && !mek.key.fromMe) return sticOwner(from)
-if (args.length < 1) return reply(`Penggunaan ${prefix}autorespon on/off`)
-if (q === 'on'){
-autotype = true
-reply(`Berhasil mengaktifkan autotype`)
-} else if (q === 'off'){
-autotype = false
-reply(`Berhasil menonaktifkan autotype`)
-} else {
-reply(mess.error.api)
+      if (!isOwner && !mek.key.fromMe) return sticOwner(from)
+           if (q === 'on'){
+             autotype = true
+                    reply(`Berhasil mengaktifkan autotype`)
+                } else if (q === 'off'){
+                    autotype = false
+                    reply(`Berhasil menonaktifkan autotype`)
+                } else if (!q) {
+                    anu =`Silahkan pilih salah satu\n\non: untuk mengaktifkan\noff: untuk menonaktifkan`
+const buttons = [{buttonId: 'autotype on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autotype off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
+const buttonMessage = {
+    contentText: `${anu}`,
+    footerText: '*_©⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗_*',
+    buttons: buttons,
+    headerType: 1
 }
-break
+await kurr.sendMessage(from, buttonMessage, MessageType.buttonsMessage, {quoted: ftrol})
+                }
+                break
 case 'autoread':
-if (!isOwner && !mek.key.fromMe) return sticOwner(from)
-if (args.length < 1) return reply(`Penggunaan ${prefix}autorespon on/off`)
-if (q === 'on'){
+      if (!isOwner && !mek.key.fromMe) return sticOwner(from)
+           if (q === 'on'){
 autoread = true
 reply(`Berhasil mengaktifkan autoread`)
 } else if (q === 'off'){
 autoread = false
 reply(`Berhasil menonaktifkan autoread`)
-} else {
-reply(mess.error.api)
+                } else if (!q) {
+                    anu =`Silahkan pilih salah satu\n\non: untuk mengaktifkan\noff: untuk menonaktifkan`
+const buttons = [{buttonId: 'autoread on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autoread off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
+const buttonMessage = {
+    contentText: `${anu}`,
+    footerText: '*_©⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗_*',
+    buttons: buttons,
+    headerType: 1
 }
-break
+await kurr.sendMessage(from, buttonMessage, MessageType.buttonsMessage, {quoted: ftrol})
+                }
+                break
         case 'test':
 				case 'tes':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
