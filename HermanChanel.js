@@ -3751,7 +3751,6 @@ await kurr.sendMessage(from, buttonMessage, MessageType.buttonsMessage, {quoted:
 					break
 case 'autovn':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
-if (args.length < 1) return reply(`Penggunaan ${prefix}autorespon on/off`)
 if (q === 'on'){
 autovn = true
 reply(`Berhasil mengaktifkan autovn`)
@@ -3761,7 +3760,17 @@ reply(`Berhasil menonaktifkan autovn`)
 } else {
 reply(mess.error.api)
 }
-break
+ anu =`Silahkan pilih salah satu\n\non: untuk mengaktifkan\noff: untuk menonaktifkan`
+punten = [{buttonId: 'off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'on', buttonText: {displayText: 'ON✔️'}, type: 1}]
+const btasu = {
+    contentText: `${anu}`,
+    footerText: '*_©⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗_*',
+    buttons: punten,
+    headerType: 1
+}
+await kurr.sendMessage(from, btasu, MessageType.buttonsMessage, {quoted: ftrol})
+					}
+          break
 case 'autotype':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 if (args.length < 1) return reply(`Penggunaan ${prefix}autorespon on/off`)
