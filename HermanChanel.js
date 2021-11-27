@@ -3750,27 +3750,25 @@ await kurr.sendMessage(from, buttonMessage, MessageType.buttonsMessage, {quoted:
 					}
 					break
 case 'autovn':
-if (!isOwner && !mek.key.fromMe) return sticOwner(from)
-if (q === 'on'){
-autovn = true
-reply(`Berhasil mengaktifkan autovn`)
-} else if (q === 'off'){
-autovn = false
-reply(`Berhasil menonaktifkan autovn`)
-} else {
-reply(mess.error.api)
-}
- anu =`Silahkan pilih salah satu\n\non: untuk mengaktifkan\noff: untuk menonaktifkan`
-punten = [{buttonId: 'off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'on', buttonText: {displayText: 'ON✔️'}, type: 1}]
-const btasu = {
+      if (!isOwner && !mek.key.fromMe) return sticOwner(from)
+           if (c === 'on'){
+             autovn = true
+                    reply(`Berhasil mengaktifkan autovn`)
+                } else if (c === 'off'){
+                    antidelete = false
+                    reply(`Berhasil menonaktifkan autovn`)
+                } else if (!c) {
+                    anu =`Silahkan pilih salah satu\n\non: untuk mengaktifkan\noff: untuk menonaktifkan`
+const buttons = [{buttonId: 'autovn on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autovn off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
+const buttonMessage = {
     contentText: `${anu}`,
     footerText: '*_©⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗_*',
-    buttons: punten,
+    buttons: buttons,
     headerType: 1
 }
-await kurr.sendMessage(from, btasu, MessageType.buttonsMessage, {quoted: ftrol})
-					}
-          break
+await kurr.sendMessage(from, buttonMessage, MessageType.buttonsMessage, {quoted: ftrol})
+                }
+                break
 case 'autotype':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 if (args.length < 1) return reply(`Penggunaan ${prefix}autorespon on/off`)
